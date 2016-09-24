@@ -19,16 +19,23 @@ def maxPhraseLength(filename):
     f = open(filename, 'r')
     raw = f.read()
     sentences = ie_preprocess(raw)
-    grammar = "NP: {<DT|PP\$>?<JJ>*<NN>}"
+    grammar = """
+    VP: {<VB>?<DT>?<JJ>*<NN><IN>?<JJ>*<NN>}"""
 
     cp = nltk.RegexpParser(grammar)
     maxLen = 0
     for i in range(len(sentences)):
         result = cp.parse(sentences[i])
-        for i in range(len(result)):
-            if isinstance(result[i], nltk.tree.Tree):
-                if len(result[i]) > maxLen:
-                    maxLen = len(result[i])
+        for tree in result:
+            if isinstance(tree, nltk.tree.Tree):
+                if len(tree) > maxLen:
+                    maxLen = len(tree)
+                    maxNode = tree
+                    maxSent = sentences[i]
+                    sentIndex = i
+    print(sentIndex)
+    print(maxNode)
+    print(maxSent)
     return maxLen
 # return result
 
