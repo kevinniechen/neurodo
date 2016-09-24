@@ -20,18 +20,16 @@
   <script src="static/js/init.js"></script>
 
   <script type="text/javascript">
-        function loading(){
-            $("#content").hide();
-            $("#loading").show();
-        }
+      function loading(){
+          $("#content").hide();
+          $("#loading").show();
+      }
   </script>
 
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
-
-  <div id="loading"></div>
 
   <div id="content">
 
@@ -70,18 +68,11 @@
         </p>
       </form>
 
-      {% if result != None %}
-      <p>
-        {% for resulto in result %}
-        {{resulto}}
-        <br>
-        {% endfor %}
-      </p>
-      {% endif %}
-
     </div>
 
   </div>
+
+  <div id="loading"></div>
 
 </body>
 
