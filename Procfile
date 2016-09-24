@@ -1,1 +1,1 @@
-web: gunicorn medhacks:app
+web gunicorn controller:app
