@@ -19,9 +19,11 @@ def index_input(basics, concept_dict):
         #print_sorted_sims(sims, basics.words)
         #print("==== " + name_of_concept)
 
-        small_lists = (sims[x:x+5] for x in range(0, len(sims), 5))
-        maxes = [max(portion) for portion in small_lists]
-        smart_ave_dict[name_of_concept] = sum(maxes, 0.0) / len(maxes)
+        #small_lists = (sims[x:x+5] for x in range(0, len(sims), 5))
+        #maxes = [max(portion) for portion in small_lists]
+        #smart_ave_dict[name_of_concept] = sum(maxes, 0.0) / len(maxes)
+        smart_ave_dict[name_of_concept] = sum(sims, 0.0) / len(sims)
+
     return smart_ave_dict
 
 def print_sorted_sims(sims, words):

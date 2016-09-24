@@ -6,16 +6,18 @@ from corpusdict import compute_basics
 
 default_delusion_categories = [
 'time',
-'sense',
-'attempt',
-'get',
-'distress',
 'self',
 ]
+
+def index_file(file_name, concept_dict):
+    basics = compute_basics(file_name)
+    smart_ave_dict = index_input(basics, concept_dict)
+    pprint(smart_ave_dict)
 
 remove_delusions()
 add_delusions(default_delusion_categories)
 concept_dict = get_concepts_from_files()
-basics = compute_basics()
-smart_ave_dict = index_input(basics, concept_dict)
-pprint(smart_ave_dict)
+index_file('timecube_raw.txt', concept_dict)
+index_file('control_raw.txt', concept_dict)
+
+

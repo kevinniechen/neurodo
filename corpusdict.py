@@ -23,28 +23,25 @@ class MyCorpus(object):
     def __len__(self):
         return len(self.words)
 
-initializedItems = GenSimBasics()
+def compute_basics(file_name):
+    text = ''
+    with open(file_name) as file:
+        text = file.read()
+    return compute_basics_text(text)
 
-def compute_basics():
-    if initializedItems.corpus:
-        return initializedItems
-
+def compute_basics_text(text):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
     # convert file to list of sentences, where sentences are split into words
-    file = open('timecube_raw.txt')
-    text = re.sub(r"""[^\w\s\.;!\?]""", '', file.read().lower())
+    text = re.sub(r"""[^\w\s\.;!\?]""", '', text.lower())
     sentences = re.split(r'[\.!\?][ \n]', text)
     words = [sentence.split() for sentence in sentences]
 
     dictionary = corpora.Dictionary(sentence for sentence in words)
     corpus = MyCorpus(dictionary, words)
 
-    initializedItems.words = words
-    initializedItems.corpus = corpus
-    initializedItems.dictionary = dictionary
-    return initializedItems
-
-def compute_corpus_and_dict():
-    items = compute_basics()
-    return items.corpus, items.dictionary
+    initialized_items = GenSimBasics()
+    initialized_items.words = words
+    initialized_items.corpus = corpus
+    initialized_items.dictionary = dictionary
+    return initialized_items

@@ -7,10 +7,14 @@ concept_dict = {}
 def parse_file(file_name, file_path):
     concepts = []
     with open(file_path) as file:
-        # find all quoted surfaceStart
+        # find all quoted start
         matches = re.findall(r'"start": "/c/en/(.+?)["/]', file.read().lower())
         concepts = list(itertools.chain.from_iterable(re.split('_', concept) for concept in matches))
         concepts.append(file_name)
+        # here we'll get rid of some undesirable related words which
+        # don't imply delusions/obsessions
+        if "always" in concepts:
+            concepts.remove("always")
         print(concepts)
     return concepts
 
