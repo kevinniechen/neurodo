@@ -20,6 +20,8 @@ class MyCorpus(object):
         for sentence in self.words:
             # assume there's one document per line, tokens separated by whitespace
             yield self.dictionary.doc2bow(sentence)
+    def __len__(self):
+        return len(self.words)
 
 initializedItems = GenSimBasics()
 
