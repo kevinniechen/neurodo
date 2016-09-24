@@ -1,0 +1,40 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#loading {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    background: url(/static/images/ajax-loader.gif) no-repeat;
+    background-position: center;
+    cursor: wait;
+  }
+
+#onloading {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: url(/static/images/ajax-loader.gif) no-repeat;
+    background-position: center;
+    cursor: wait;
+  }

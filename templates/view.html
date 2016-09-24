@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Psychosis Text Analyzer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/init.js"></script>
+
+  <script type="text/javascript">
+      function loading(){
+          $("#content").hide();
+          $("#loading").show();
+      }
+  </script>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+  <div id="content">
+
+    <nav class="blue-grey darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/">MedHacks 2.0</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/help">Help</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="col s6">
+        <h3>Psychosis Text Analyzer</h3>
+      </div>
+
+      <form method=post action="">
+        {% for field in form %}
+        <div class="row">
+          <div class="input-field col s12">
+            {% if field.type == "TextAreaField" %}
+            {{ field(class_="materialize-textarea") }}
+            {% endif %}
+            {{ field.label }}
+          </div>
+        </div>
+        {% endfor %}
+
+        <p>
+          <button class="btn waves-effect waves-light" type="submit" value="Analyze" name="action" onclick="loading();">
+            Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </p>
+      </form>
+
+    </div>
+
+  </div>
+
+  <div id="loading"></div>
+
+</body>
+
+</html>

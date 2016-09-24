@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Psychosis Text Analyzer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="static/js/materialize.js"></script>
+  <script src="static/js/init.js"></script>
+
+  <script type="text/javascript">
+      $(window).load(function() {
+        $('#onloading').hide();
+        $('#oncontent').show();
+      });
+  </script>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+  <div id="oncontent" style="display:none">
+
+    <nav class="blue-grey darken-4" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/">MedHacks 2.0</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/help">Help</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="col s6">
+        <table>
+        {% for key, value in result_delusions.items() %}
+           <tr>
+                <th> {{ key }} </th>
+                <td> {{ value }} </td>
+           </tr>
+        {% endfor %}
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="onloading"></div>
+
+</body>
+
+</html>
