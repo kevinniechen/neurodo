@@ -1,6 +1,15 @@
 from semantic_coherence.semantic_coherence import index_file, index_string
 
-index_file('timecube_raw.txt')
+sims_tc = index_file('timecube_raw.txt')
+ave_tc = sum(sims_tc, 0.0) / len(sims_tc)
+min_tc = min(sims_tc)
+
+sims_ctl = index_file('control_raw.txt')
+ave_ctl = sum(sims_ctl, 0.0) / len(sims_ctl)
+min_ctl = min(sims_ctl)
+
+print("ave_tc: " + str(ave_tc) + " ave_ctl: " + str(ave_ctl))
+print("min_tc: " + str(min_tc) + " min_ctl: " + str(min_ctl))
 
 index_string("""
 In 1884,  meridian time personnel met

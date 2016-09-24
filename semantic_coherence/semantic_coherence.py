@@ -3,11 +3,13 @@ from gensim import corpora, models, similarities
 from scipy import spatial
 
 def index_file(file_name):
+    sims = []
     with open(file_name) as f:
-        index_string(f.read())
+        sims = index_string(f.read())
+    return sims
 
 def index_string(text):
-    basics = index_coherence(compute_basics_text(text, 'all'), compute_basics_text(text, 'even'), compute_basics_text(text, 'odd'))
+    return index_coherence(compute_basics_text(text, 'all'), compute_basics_text(text, 'even'), compute_basics_text(text, 'odd'))
 
 def make_model(corpus, dictionary, words):
     return models.LsiModel(corpus, id2word=dictionary, num_topics=len(words))
