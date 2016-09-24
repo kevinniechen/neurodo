@@ -1,4 +1,5 @@
 *.swp
 *.pyc
+*.ipynb
 log.txt
 log2.txt
