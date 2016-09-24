@@ -1,0 +1,12 @@
+set up virtualenv for python3 http://virtualenv.readthedocs.io/en/latest/userguide/#usage
+
+sudo apt-get install python3.4-dev gfortran libopenblas-dev liblapack-dev
+
+python3 -m easy_install scipy
+python3 -m easy_install --upgrade gensim
+python3 -m easy_install gensim
+install conceptnet5 https://github.com/commonsense/conceptnet5/wiki/Running-your-own-copy
+
+python3 -m pip install Django
+python3 -m pip install uwsgi
+django-admin.py startproject cohere-proj
