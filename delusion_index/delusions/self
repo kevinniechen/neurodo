@@ -1,0 +1,490 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/self",
+      "features": [
+        "/c/en/self/n /r/RelatedTo -",
+        "/c/en/self/n - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/c6e59d3237867c9cc48a1aef762c92b949f79d38",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/self/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/self/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/self"
+      ],
+      "start": "/c/en/self/n",
+      "surfaceEnd": "selfs",
+      "surfaceStart": "self",
+      "surfaceText": "[[self]] is related to [[selfs]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/self/n/,/c/en/self/]",
+      "weight": 2.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/fi",
+      "end": "/c/en/self",
+      "features": [
+        "/c/fi/itse /r/RelatedTo -",
+        "/c/fi/itse - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/6682656a399bd7b4a78bfc6413d14c97428c4fcf",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/itse-/]/,/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/itse/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/itse",
+        "/s/web/en.wiktionary.org/wiki/itse-"
+      ],
+      "start": "/c/fi/itse",
+      "surfaceEnd": "self-",
+      "surfaceStart": "itse-",
+      "surfaceText": "[[itse-]] is related to [[self-]]",
+      "uri": "/a/[/r/RelatedTo/,/c/fi/itse/,/c/en/self/]",
+      "weight": 2.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/gd",
+      "end": "/c/en/self",
+      "features": [
+        "/c/gd/san /r/RelatedTo -",
+        "/c/gd/san - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/1f1886599e56904ae13aa326f0a68508e5e2c42d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/-san/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/-san"
+      ],
+      "start": "/c/gd/san",
+      "surfaceEnd": "-self",
+      "surfaceStart": "-san",
+      "surfaceText": "[[-san]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/gd/san/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/io",
+      "end": "/c/en/self",
+      "features": [
+        "/c/io/ipsa /r/RelatedTo -",
+        "/c/io/ipsa - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/f6392d37e68e2271c036db3f5544b0374b2db8d2",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ipsa/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ipsa"
+      ],
+      "start": "/c/io/ipsa",
+      "surfaceEnd": "-self",
+      "surfaceStart": "ipsa",
+      "surfaceText": "[[ipsa]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/io/ipsa/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/crh",
+      "end": "/c/en/self",
+      "features": [
+        "/c/crh/öz /r/RelatedTo -",
+        "/c/crh/öz - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/0d4c2a03f1ab033fd6c3cd14aef044cc55d6e66f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/öz/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/öz"
+      ],
+      "start": "/c/crh/öz",
+      "surfaceEnd": "-self",
+      "surfaceStart": "öz",
+      "surfaceText": "[[öz]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/crh/öz/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/gv",
+      "end": "/c/en/self",
+      "features": [
+        "/c/gv/syn /r/RelatedTo -",
+        "/c/gv/syn - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/928177a41e6ef7963996ccf4ba3cb58d7588b305",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/-syn/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/-syn"
+      ],
+      "start": "/c/gv/syn",
+      "surfaceEnd": "-self",
+      "surfaceStart": "-syn",
+      "surfaceText": "[[-syn]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/gv/syn/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/tr",
+      "end": "/c/en/self",
+      "features": [
+        "/c/tr/öz /r/RelatedTo -",
+        "/c/tr/öz - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/6457c876e1171278045e0d64350cac9a481242bf",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/öz/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/öz"
+      ],
+      "start": "/c/tr/öz",
+      "surfaceEnd": "-self",
+      "surfaceStart": "öz",
+      "surfaceText": "[[öz]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/tr/öz/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cmn",
+      "end": "/c/en/self",
+      "features": [
+        "/c/zh/自己/n /r/RelatedTo -",
+        "/c/zh/自己/n - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/6fd5a605418970df2be7f6567dd237f94907203b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/自己/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/自己"
+      ],
+      "start": "/c/zh/自己/n",
+      "surfaceEnd": "self",
+      "surfaceStart": "自己",
+      "surfaceText": "[[自己]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/zh/自己/n/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/self",
+      "features": [
+        "/c/en/oneself /r/RelatedTo -",
+        "/c/en/oneself - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/3f04bdb3c75ada459c487ac800f877cce909b80d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/oneself/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/oneself/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/oneself"
+      ],
+      "start": "/c/en/oneself",
+      "surfaceEnd": "self",
+      "surfaceStart": "oneself",
+      "surfaceText": "[[oneself]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/oneself/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/self",
+      "features": [
+        "/c/en/self /r/RelatedTo -",
+        "/c/en/self - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/1a04833cc250efaed9a829a3431fe77d8395e60d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/-self/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/-selves/]/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/-self",
+        "/s/web/en.wiktionary.org/wiki/-selves"
+      ],
+      "start": "/c/en/self",
+      "surfaceEnd": "-selves",
+      "surfaceStart": "-self",
+      "surfaceText": "[[-self]] is related to [[-selves]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/self/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/eo",
+      "end": "/c/en/self",
+      "features": [
+        "/c/eo/mem /r/RelatedTo -",
+        "/c/eo/mem - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/5bdcb6e76e39f258d89dc94baec680ba421f4bd8",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/mem/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/mem"
+      ],
+      "start": "/c/eo/mem",
+      "surfaceEnd": "-self",
+      "surfaceStart": "mem",
+      "surfaceText": "[[mem]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/eo/mem/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/gd",
+      "end": "/c/en/self",
+      "features": [
+        "/c/gd/se /r/RelatedTo -",
+        "/c/gd/se - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/e552f1a0b665816333503f2a95367a987bfe519f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/-se/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/-se"
+      ],
+      "start": "/c/gd/se",
+      "surfaceEnd": "-self",
+      "surfaceStart": "-se",
+      "surfaceText": "[[-se]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/gd/se/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/nl",
+      "end": "/c/en/self",
+      "features": [
+        "/c/nl/zelf /r/RelatedTo -",
+        "/c/nl/zelf - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/56586f2b894ca2680aa3498b5381cc8b207aca22",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/-zelf/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/-zelf"
+      ],
+      "start": "/c/nl/zelf",
+      "surfaceEnd": "-self",
+      "surfaceStart": "-zelf",
+      "surfaceText": "[[-zelf]] is related to [[-self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/nl/zelf/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cmn",
+      "end": "/c/en/self",
+      "features": [
+        "/c/zh/自我/n /r/RelatedTo -",
+        "/c/zh/自我/n - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/b4ad2b3127cce3b2efc8ca8206d09aaf04d2201f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/自我/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/自我"
+      ],
+      "start": "/c/zh/自我/n",
+      "surfaceEnd": "self",
+      "surfaceStart": "自我",
+      "surfaceText": "[[自我]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/zh/自我/n/,/c/en/self/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/self",
+      "features": [
+        "/c/en/ego /r/RelatedTo -",
+        "/c/en/ego - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/c3df04b55df2dac7b39e7562b57ba7bc8eb19c29",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ego-/]/,/s/site/verbosity/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/site/verbosity",
+        "/s/web/en.wiktionary.org/wiki/ego-"
+      ],
+      "start": "/c/en/ego",
+      "surfaceEnd": "self",
+      "surfaceStart": "ego",
+      "surfaceText": "[[ego]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/ego/,/c/en/self/]",
+      "weight": 1.1184638319264348
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ar",
+      "end": "/c/en/self",
+      "features": [
+        "/c/ar/نفس/n /r/RelatedTo -",
+        "/c/ar/نفس/n - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/113b9bed642cff707aaf7d90943eddc67dffa01c",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/نفس/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/نفس"
+      ],
+      "start": "/c/ar/نفس/n",
+      "surfaceEnd": "self",
+      "surfaceStart": "نفس",
+      "surfaceText": "[[نفس]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ar/نفس/n/,/c/en/self/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/arc",
+      "end": "/c/en/self",
+      "features": [
+        "/c/arc/ית /r/RelatedTo -",
+        "/c/arc/ית - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/8f5b34f83c3e46a5e8fe9483c2909fdcc07d231a",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ית/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ית"
+      ],
+      "start": "/c/arc/ית",
+      "surfaceEnd": "self",
+      "surfaceStart": "ית",
+      "surfaceText": "[[ית]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/arc/ית/,/c/en/self/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/self",
+      "features": [
+        "/c/de/selbstentzündlich/a /r/RelatedTo -",
+        "/c/de/selbstentzündlich/a - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/c7dfee1d715a61dfa5719a0811decbca20fc8047",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/selbstentzündlich/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/selbstentzündlich"
+      ],
+      "start": "/c/de/selbstentzündlich/a",
+      "surfaceEnd": "self-",
+      "surfaceStart": "selbstentzündlich",
+      "surfaceText": "[[selbstentzündlich]] is related to [[self-]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/selbstentzündlich/a/,/c/en/self/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/self",
+      "features": [
+        "/c/de/selbsterfüllend/a /r/RelatedTo -",
+        "/c/de/selbsterfüllend/a - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/517b77b86de7e119d7c0088030510c3b4c9bc18d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/selbsterfüllend/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/selbsterfüllend"
+      ],
+      "start": "/c/de/selbsterfüllend/a",
+      "surfaceEnd": "self",
+      "surfaceStart": "selbsterfüllend",
+      "surfaceText": "[[selbsterfüllend]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/selbsterfüllend/a/,/c/en/self/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/self",
+      "features": [
+        "/c/de/selbstversuch/n /r/RelatedTo -",
+        "/c/de/selbstversuch/n - /c/en/self",
+        "- /r/RelatedTo /c/en/self"
+      ],
+      "id": "/e/e00d2a04eaa00e38c3eaef655864513360c34746",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/Selbstversuch/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/Selbstversuch"
+      ],
+      "start": "/c/de/selbstversuch/n",
+      "surfaceEnd": "self",
+      "surfaceStart": "Selbstversuch",
+      "surfaceText": "[[Selbstversuch]] is related to [[self]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/selbstversuch/n/,/c/en/self/]",
+      "weight": 1.0
+    }
+  ],
+  "numFound": 20
+}

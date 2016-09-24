@@ -1,0 +1,485 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/distressingly/r /r/RelatedTo -",
+        "/c/en/distressingly/r - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/a425f6215f19309d1495681370d4a4d0af452656",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/distressingly/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/distressingly"
+      ],
+      "start": "/c/en/distressingly/r",
+      "surfaceEnd": "distress",
+      "surfaceStart": "distressingly",
+      "surfaceText": "[[distressingly]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/distressingly/r/,/c/en/distress/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/lamentable/a /r/RelatedTo -",
+        "/c/en/lamentable/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/c0827baeed62945a11fe8b1c672a0eb6c9e4bb2b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/lamentable/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/lamentable"
+      ],
+      "start": "/c/en/lamentable/a",
+      "surfaceEnd": "distress",
+      "surfaceStart": "lamentable",
+      "surfaceText": "[[lamentable]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/lamentable/a/,/c/en/distress/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/es",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/es/angustioso/a /r/RelatedTo -",
+        "/c/es/angustioso/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/1182839391abb101d1c21e123213d7ae020c95f0",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/angustioso/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/angustioso"
+      ],
+      "start": "/c/es/angustioso/a",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "angustioso",
+      "surfaceText": "[[angustioso]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/es/angustioso/a/,/c/en/distress/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ang",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/ang/abelgan/v /r/RelatedTo -",
+        "/c/ang/abelgan/v - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/2352852e1af7cd9ead2afb94e943025eedb8de05",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/abelgan/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/abelgan"
+      ],
+      "start": "/c/ang/abelgan/v",
+      "surfaceEnd": "distress",
+      "surfaceStart": "abelgan",
+      "surfaceText": "[[abelgan]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ang/abelgan/v/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ang",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/ang/nearo/a /r/RelatedTo -",
+        "/c/ang/nearo/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/6136c6df496ad27253e1bf1153d5b1ea135e6fe2",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/nearo/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/nearo"
+      ],
+      "start": "/c/ang/nearo/a",
+      "surfaceEnd": "distressing",
+      "surfaceStart": "nearo",
+      "surfaceText": "[[nearo]] is related to [[distressing]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ang/nearo/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ar",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/ar/اهتم/v /r/RelatedTo -",
+        "/c/ar/اهتم/v - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/92e47ff23633890a2952df35aba5140eec3bd4f3",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/اهتم/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/اهتم"
+      ],
+      "start": "/c/ar/اهتم/v",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "اهتم",
+      "surfaceText": "[[اهتم]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ar/اهتم/v/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/disturb/v /r/RelatedTo -",
+        "/c/en/disturb/v - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/e405dc9bf330298463f78d88bfe37ea91b3a07fa",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/disturb/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/disturb"
+      ],
+      "start": "/c/en/disturb/v",
+      "surfaceEnd": "distress",
+      "surfaceStart": "disturb",
+      "surfaceText": "[[disturb]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/disturb/v/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/fraught/a /r/RelatedTo -",
+        "/c/en/fraught/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/7b9e3d0775d7d767c164db63b0546342fbb47e54",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/fraught/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/fraught"
+      ],
+      "start": "/c/en/fraught/a",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "fraught",
+      "surfaceText": "[[fraught]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/fraught/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/grieve/v /r/RelatedTo -",
+        "/c/en/grieve/v - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/23638e68504b611846bc7255fbfd68aabd7fe6b8",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/grieve/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/grieve"
+      ],
+      "start": "/c/en/grieve/v",
+      "surfaceEnd": "distress",
+      "surfaceStart": "grieve",
+      "surfaceText": "[[grieve]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/grieve/v/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/gross_out/n /r/RelatedTo -",
+        "/c/en/gross_out/n - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/0ba443f06b8d730d3c1d4ba73bc340ec61165660",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/gross_out/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/gross_out"
+      ],
+      "start": "/c/en/gross_out/n",
+      "surfaceEnd": "distress",
+      "surfaceStart": "gross out",
+      "surfaceText": "[[gross out]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/gross_out/n/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/heartrending/a /r/RelatedTo -",
+        "/c/en/heartrending/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/4e0d5377a5338cd085f797facb7b3bc9ea98995a",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/heartrending/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/heartrending"
+      ],
+      "start": "/c/en/heartrending/a",
+      "surfaceEnd": "distress",
+      "surfaceStart": "heartrending",
+      "surfaceText": "[[heartrending]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/heartrending/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/ill/n /r/RelatedTo -",
+        "/c/en/ill/n - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/87a2bf087a137be27a4573d71f84426ee1c2b509",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ill/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ill"
+      ],
+      "start": "/c/en/ill/n",
+      "surfaceEnd": "distress",
+      "surfaceStart": "ill",
+      "surfaceText": "[[ill]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/ill/n/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/misery/n /r/RelatedTo -",
+        "/c/en/misery/n - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/d43c75f422259fa4a16c70f4f4701f138c74e0c4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/misery/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/misery"
+      ],
+      "start": "/c/en/misery/n",
+      "surfaceEnd": "distress",
+      "surfaceStart": "misery",
+      "surfaceText": "[[misery]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/misery/n/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/nerve_gas/n /r/RelatedTo -",
+        "/c/en/nerve_gas/n - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/bd2cc25819d2f902230268a7f699f61a59fd6bc9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/nerve_gas/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/nerve_gas"
+      ],
+      "start": "/c/en/nerve_gas/n",
+      "surfaceEnd": "distress",
+      "surfaceStart": "nerve gas",
+      "surfaceText": "[[nerve gas]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/nerve_gas/n/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/nerve_wrack/a /r/RelatedTo -",
+        "/c/en/nerve_wrack/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/47427c968f1dceeecb27fcbd50bdab4377eae3eb",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/nerve-wracking/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/nerve-wracking"
+      ],
+      "start": "/c/en/nerve_wrack/a",
+      "surfaceEnd": "distress",
+      "surfaceStart": "nerve-wracking",
+      "surfaceText": "[[nerve-wracking]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/nerve_wrack/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/pre_distress/a /r/RelatedTo -",
+        "/c/en/pre_distress/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/1e49b0909d3e676e4bde6faa168ea7083e857efd",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/pre-distressed/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/pre-distressed"
+      ],
+      "start": "/c/en/pre_distress/a",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "pre-distressed",
+      "surfaceText": "[[pre-distressed]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/pre_distress/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/predistressed/a /r/RelatedTo -",
+        "/c/en/predistressed/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/dc85fdec0a1c098ba08fd279c085dcba1a409315",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/predistressed/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/predistressed"
+      ],
+      "start": "/c/en/predistressed/a",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "predistressed",
+      "surfaceText": "[[predistressed]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/predistressed/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/rocky/a /r/RelatedTo -",
+        "/c/en/rocky/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/a70a743218c9b78edc0710a190427f1b5a257c3a",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/rocky/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/rocky"
+      ],
+      "start": "/c/en/rocky/a",
+      "surfaceEnd": "distress",
+      "surfaceStart": "rocky",
+      "surfaceText": "[[rocky]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/rocky/a/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/take_it_like_man/v /r/RelatedTo -",
+        "/c/en/take_it_like_man/v - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/dde9d7c7eb9ba202637363fe70e9d5e34dd7e78d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/take_it_like_a_man/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/take_it_like_a_man"
+      ],
+      "start": "/c/en/take_it_like_man/v",
+      "surfaceEnd": "distress",
+      "surfaceStart": "take it like a man",
+      "surfaceText": "[[take it like a man]] is related to [[distress]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/take_it_like_man/v/,/c/en/distress/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/distress",
+      "features": [
+        "/c/en/tatty/a /r/RelatedTo -",
+        "/c/en/tatty/a - /c/en/distress",
+        "- /r/RelatedTo /c/en/distress"
+      ],
+      "id": "/e/4d01973890f04020b7808cee47714192b6c2e1db",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/tatty/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/tatty"
+      ],
+      "start": "/c/en/tatty/a",
+      "surfaceEnd": "distressed",
+      "surfaceStart": "tatty",
+      "surfaceText": "[[tatty]] is related to [[distressed]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/tatty/a/,/c/en/distress/]",
+      "weight": 1.0
+    }
+  ],
+  "numFound": 20
+}

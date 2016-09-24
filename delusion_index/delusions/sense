@@ -1,0 +1,484 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/taste /r/RelatedTo -",
+        "/c/en/taste - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/ad0b79e892d4962cc43b0c38dee0c5f8c3f1d440",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/taste",
+      "surfaceEnd": "sense",
+      "surfaceStart": "taste",
+      "surfaceText": "[[taste]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/taste/,/c/en/sense/]",
+      "weight": 4.915251296425589
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/touch /r/RelatedTo -",
+        "/c/en/touch - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/509169255c42898a226614f2c7e4e1b9183018e9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/touch",
+      "surfaceEnd": "senses",
+      "surfaceStart": "touch",
+      "surfaceText": "[[touch]] is related to [[senses]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/touch/,/c/en/sense/]",
+      "weight": 4.531095846213872
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/smell /r/RelatedTo -",
+        "/c/en/smell - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/8d7c9f45b057204985631b037e821c1594ad7f58",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/smell/]/,/s/site/verbosity/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/site/verbosity",
+        "/s/web/en.wiktionary.org/wiki/smell"
+      ],
+      "start": "/c/en/smell",
+      "surfaceEnd": "a sense",
+      "surfaceStart": "smell",
+      "surfaceText": "[[smell]] is related to [[a sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/smell/,/c/en/sense/]",
+      "weight": 4.238989662236058
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/feel /r/RelatedTo -",
+        "/c/en/feel - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/ffafa5c136824b40bdcaccd1d17a58d736d696c1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/feel",
+      "surfaceEnd": "sensing",
+      "surfaceStart": "feeling",
+      "surfaceText": "[[feeling]] is related to [[sensing]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/feel/,/c/en/sense/]",
+      "weight": 2.390024157270664
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/hear /r/RelatedTo -",
+        "/c/en/hear - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/36799a2f5dc31361912e5aa1f350fbcec654ae9f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/hear",
+      "surfaceEnd": "sense",
+      "surfaceStart": "hear",
+      "surfaceText": "[[hear]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/hear/,/c/en/sense/]",
+      "weight": 2.3480038052597196
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cu",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/cu/чоувьство/n /r/RelatedTo -",
+        "/c/cu/чоувьство/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/5d69c8316b34b2e04d7b7b13d31a2bffc2b25dec",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/чоувьство/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/чоувьство"
+      ],
+      "start": "/c/cu/чоувьство/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "чоувьство",
+      "surfaceText": "[[чоувьство]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/cu/чоувьство/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cu",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/cu/чоувьствиѥ/n /r/RelatedTo -",
+        "/c/cu/чоувьствиѥ/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/18cfee5fd061af2f028ce851c3d425327cbef693",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/чоувьствиѥ/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/чоувьствиѥ"
+      ],
+      "start": "/c/cu/чоувьствиѥ/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "чоувьствиѥ",
+      "surfaceText": "[[чоувьствиѥ]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/cu/чоувьствиѥ/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cu",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/cu/чоуиство/n /r/RelatedTo -",
+        "/c/cu/чоуиство/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/4342cdd3fc02015a74c9bdfad5d96572cd2e9ff1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/чоуиство/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/чоуиство"
+      ],
+      "start": "/c/cu/чоуиство/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "чоуиство",
+      "surfaceText": "[[чоуиство]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/cu/чоуиство/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/sensation/n /r/RelatedTo -",
+        "/c/en/sensation/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/b16299232c47b4210c1a3b4d57b93e0eb6b73b0d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sensation/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/sensation/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/sensation"
+      ],
+      "start": "/c/en/sensation/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "sensation",
+      "surfaceText": "[[sensation]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sensation/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/sensible/a /r/RelatedTo -",
+        "/c/en/sensible/a - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/0fbff97f9aafe96bed0a4120bc4e1b3f814df4a6",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sensible/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/sensible/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/sensible"
+      ],
+      "start": "/c/en/sensible/a",
+      "surfaceEnd": "sense",
+      "surfaceStart": "sensible",
+      "surfaceText": "[[sensible]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sensible/a/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/sensuous/a /r/RelatedTo -",
+        "/c/en/sensuous/a - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/4b33433fc5093d7bcbf7770ff297aedd3b22f2a3",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sensuous/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/sensuous/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/sensuous"
+      ],
+      "start": "/c/en/sensuous/a",
+      "surfaceEnd": "sense",
+      "surfaceStart": "sensuous",
+      "surfaceText": "[[sensuous]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sensuous/a/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cmn",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/zh/意义/n /r/RelatedTo -",
+        "/c/zh/意义/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/6b501eb8c78d6f06d64ed87c97ec2a6420a4d4ed",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/意义/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/意义"
+      ],
+      "start": "/c/zh/意义/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "意义",
+      "surfaceText": "[[意义]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/zh/意义/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/taste /r/RelatedTo -",
+        "/c/en/taste - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/ad0b79e892d4962cc43b0c38dee0c5f8c3f1d440",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/taste",
+      "surfaceEnd": "sense",
+      "surfaceStart": "taste",
+      "surfaceText": "[[taste]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/taste/,/c/en/sense/]",
+      "weight": 4.915251296425589
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/unsensing/a /r/RelatedTo -",
+        "/c/en/unsensing/a - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/61c225d8d152ecd28afc49c95ca5f841fb49688f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/unsensing/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/unsensing"
+      ],
+      "start": "/c/en/unsensing/a",
+      "surfaceEnd": "sense",
+      "surfaceStart": "unsensing",
+      "surfaceText": "[[unsensing]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/unsensing/a/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/sensual/a /r/RelatedTo -",
+        "/c/en/sensual/a - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/7bfd91582939ce089d66b11fdcd1961bccdbf165",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sensual/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/sensual/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/sensual"
+      ],
+      "start": "/c/en/sensual/a",
+      "surfaceEnd": "senses",
+      "surfaceStart": "sensual",
+      "surfaceText": "[[sensual]] is related to [[senses]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sensual/a/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/wit/n /r/RelatedTo -",
+        "/c/en/wit/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/f1f9370ed93f4b9e13a70d95116cec47cb1612c5",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/wit/]/,/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/wits/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/wit",
+        "/s/web/en.wiktionary.org/wiki/wits"
+      ],
+      "start": "/c/en/wit/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "wit",
+      "surfaceText": "[[wit]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/wit/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cmn",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/zh/意義/n /r/RelatedTo -",
+        "/c/zh/意義/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/fd10c0259675aa877ca36a75a4174dd0bc921769",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/意義/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/意義"
+      ],
+      "start": "/c/zh/意義/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "意義",
+      "surfaceText": "[[意義]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/zh/意義/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ru",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/ru/рассудок/n /r/RelatedTo -",
+        "/c/ru/рассудок/n - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/6b5da690df0d9333dec8a9ac6db41b183eb71b72",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/рассудок/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/рассудок"
+      ],
+      "start": "/c/ru/рассудок/n",
+      "surfaceEnd": "sense",
+      "surfaceStart": "рассудок",
+      "surfaceText": "[[рассудок]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ru/рассудок/n/,/c/en/sense/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/sound /r/RelatedTo -",
+        "/c/en/sound - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/ad8b183d071f03e4461fe595e99e79a33b0a35d6",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/sound",
+      "surfaceEnd": "sense",
+      "surfaceStart": "sound",
+      "surfaceText": "[[sound]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sound/,/c/en/sense/]",
+      "weight": 1.4040291975100727
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/sense",
+      "features": [
+        "/c/en/eye /r/RelatedTo -",
+        "/c/en/eye - /c/en/sense",
+        "- /r/RelatedTo /c/en/sense"
+      ],
+      "id": "/e/256f8003c0a4c5a88d5ad1e17983ed4da53cbb92",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/eye",
+      "surfaceEnd": "sense",
+      "surfaceStart": "eye",
+      "surfaceText": "[[eye]] is related to [[sense]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/eye/,/c/en/sense/]",
+      "weight": 1.195201116389547
+    }
+  ],
+  "numFound": 20
+}
