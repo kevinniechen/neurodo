@@ -34,7 +34,7 @@ def compute_basics_text(text, filter_even_odd):
 
     # convert file to list of sentences, where sentences are split into words
     text = re.sub(r"""[^\w\s\.;!\?]""", '', text.lower())
-    sentences = re.split(r'[\.!\?][ \n]', text)
+    sentences = [s for s in re.split(r'[\.!\?][ \n]', text) if s]
 
     if filter_even_odd == 'even':
         sentences = sentences[::2]
