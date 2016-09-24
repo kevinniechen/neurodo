@@ -20,7 +20,7 @@ def maxPhraseLength(filename):
     raw = f.read()
     sentences = ie_preprocess(raw)
     grammar = """
-    VP: {<DT>?<PRP>?<MD>?<VB>?<JJ>*<NN>?<IN>?<JJ>*<NN><VB>?}"""
+    VP: {<DT>?<JJ>*<PRP>?<NN>?<MD>?<VB|VBD|VBP|VBG|VBZ|VBN>?<IN>?<DT>?<JJ>*<NN>}"""
     # grammar = """
     #     VP: {<DT>?<PRP>?<MD>?<VB>?<JJ>*<NN>}"""
     # grammar = "NP: {<DT|PP>?<JJ>*<NN>}"

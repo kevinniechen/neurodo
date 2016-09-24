@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba7316c-0c0f-4e55-aa53-cc32b9d4ac1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntacticComplexity/determiners.py" afterPath="$PROJECT_DIR$/syntacticComplexity/determiners.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.ipynb" afterPath="$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.py" afterPath="$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntacticComplexity/syntacticComplexity.ipynb" afterPath="$PROJECT_DIR$/syntacticComplexity/syntacticComplexity.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt" afterPath="$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt" />
     </list>
     <ignored path="cohere_proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="maxPhraseLength.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding>
                 <element signature="e#3#26#0" expanded="true" />
               </folding>
@@ -53,8 +51,8 @@
       <file leaf-file-name="testPhraseLength.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="299" selection-start-line="12" selection-start-column="299" selection-end-line="12" selection-end-column="299" />
+            <state relative-caret-position="210">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -426,6 +424,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/syntacticComplexity/determiners.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -436,18 +442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/syntacticComplexity/testPhraseLength.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="299" selection-start-line="12" selection-start-column="299" selection-end-line="12" selection-end-column="299" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/syntacticComplexity/maxPhraseLength.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
             <element signature="e#3#26#0" expanded="true" />
           </folding>
