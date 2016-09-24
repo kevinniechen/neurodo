@@ -9,7 +9,6 @@ import nltk, re, pprint
 
 from collections import Counter
 from nltk import word_tokenize
-from urllib import request
 
 def determiners(filename):
     f = open(filename, 'r')
@@ -23,8 +22,8 @@ def determiners(filename):
     # print(type(text))
     tagged = nltk.pos_tag(text)
     counts = Counter(tag for word, tag in tagged)
-    # print(counts)
-    return counts["DT"]
+    print(counts)
+    return counts["WDT"]
 
 if __name__ == "__main__":
     filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/timecube_raw.txt"
