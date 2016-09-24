@@ -5,7 +5,6 @@ from gensim import corpora, models, similarities
 from six import iteritems
 import re
 
-
 class GenSimBasics(object):
     def __init__(self):
         self.dictionary = None
@@ -32,6 +31,8 @@ def compute_basics(file_name):
 def compute_basics_text(text, filter_even_odd):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
+    # cut text down to standard size
+    text = text[:1000]
     # convert file to list of sentences, where sentences are split into words
     text = re.sub(r"""[^\w\s\.;!\?]""", '', text.lower())
     sentences = [s for s in re.split(r'[\.!\?]\s', text) if s]

@@ -29,6 +29,15 @@ add_delusions(default_delusion_categories)
 concept_dict = get_concepts_from_files()
 #index_file('timecube_raw.txt', concept_dict)
 #index_file('control_raw.txt', concept_dict)
+
+
+for x in range(0, 6):
+    index_ctl('ctl_pres_' + str(x) + '_raw.txt')
+for x in range(0, 2):
+    index_patient('schiz_' + str(x) + '_raw.txt')
+
+
+
 index_string("""
 In 1884,  meridian time personnel met
  in Washington to change Earth time.

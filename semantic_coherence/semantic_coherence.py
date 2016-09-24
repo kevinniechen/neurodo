@@ -24,7 +24,7 @@ def index_coherence(basics, even_basics, odd_basics):
 
         if len(ovec_lsi) == len(evec_lsi):
             sims.append(1 - spatial.distance.cosine([e[1] for e in evec_lsi], [o[1] for o in ovec_lsi]))
-        else:
-            print(ovec_lsi[-1], evec_lsi[-1])
-            print(len(ovec_lsi), len(evec_lsi))
+        #else:
+        #    print(ovec_lsi[-1], evec_lsi[-1])
+        #    print(len(ovec_lsi), len(evec_lsi))
     return sims
