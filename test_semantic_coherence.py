@@ -2,6 +2,10 @@ from corpusdict import compute_basics_text
 from gensim import corpora, models, similarities
 from scipy import spatial
 
+def index_file(file_name):
+    with open(file_name) as f:
+        index_string(f.read())
+
 def index_string(text):
     basics = index_coherence(compute_basics_text(text, 'all'), compute_basics_text(text, 'even'), compute_basics_text(text, 'odd'))
 
@@ -13,12 +17,18 @@ def index_coherence(basics, even_basics, odd_basics):
             basics.words)
     sims = []
     for esentence, osentence in zip(even_basics.words, odd_basics.words):
-        ovec_lsi = lsi[basics.dictionary.doc2bow(esentence)]
-        evec_lsi = lsi[basics.dictionary.doc2bow(osentence)]
-        sims.append(1 - spatial.distance.cosine([e[1] for e in evec_lsi], [o[1] for o in ovec_lsi]))
-    print(sims)
+        ovec_lsi = lsi[basics.dictionary.doc2bow(osentence)]
+        evec_lsi = lsi[basics.dictionary.doc2bow(esentence)]
+
+        if len(ovec_lsi) == len(evec_lsi):
+            sims.append(1 - spatial.distance.cosine([e[1] for e in evec_lsi], [o[1] for o in ovec_lsi]))
+        else:
+            print(ovec_lsi[-1], evec_lsi[-1])
+            print(len(ovec_lsi), len(evec_lsi))
     return sims
 
+
+index_file('timecube_raw.txt')
 
 index_string("""
 In 1884,  meridian time personnel met
