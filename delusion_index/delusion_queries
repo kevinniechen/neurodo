@@ -1,1 +1,0 @@
-wget "http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/RelatedTo&end=/c/en/time&limit=20&filter=/c/en" -O "delusions/time"
