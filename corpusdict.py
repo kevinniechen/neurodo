@@ -23,10 +23,12 @@ def compute_corpus_and_dict():
 
     # collect statistics about all tokens
     file = open('timecube_raw.txt')
-    sentences = re.split('[\.!\?\n]', file.read().lower())
+    text = re.sub(r"""[^\w\s\.;!\?]""", '', file.read().lower())
+    sentences = re.split(r'[\.!\?][ \n]', text)
 
 
     words = [sentence.split() for sentence in sentences]
+    print(words)
     dictionary = corpora.Dictionary(sentence for sentence in words)
     corpus = MyCorpus(dictionary, words)
 
