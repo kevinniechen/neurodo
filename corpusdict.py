@@ -27,14 +27,15 @@ def compute_basics(file_name):
     text = ''
     with open(file_name) as file:
         text = file.read()
-    return compute_basics_text(text)
+    return compute_basics_text(text, lambda x: True)
 
-def compute_basics_text(text):
+def compute_basics_text(text, filter_func):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
     # convert file to list of sentences, where sentences are split into words
     text = re.sub(r"""[^\w\s\.;!\?]""", '', text.lower())
     sentences = re.split(r'[\.!\?][ \n]', text)
+    sentences = filter(filter_func, sentences)
     words = [sentence.split() for sentence in sentences]
 
     dictionary = corpora.Dictionary(sentence for sentence in words)
