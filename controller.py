@@ -1,6 +1,6 @@
 from model import InputForm
 from flask import Flask, render_template, request, Response
-from compute import unpack_data, unpack_to_set, number_of_words
+from compute import unpack_data, unpack_to_set, number_of_words, calc_delusions
 import csv, io, os
 
 app = Flask(__name__)
@@ -9,8 +9,8 @@ app = Flask(__name__)
 def index():
     form = InputForm(request.form)
     if request.method == 'POST' and form.validate():
-        result = unpack_data(form.text_input)
-        return render_template('results.html', form=form, result=result)
+        result_delusions = calc_delusions(unpack_data(form.text_input))
+        return render_template('results.html', form=form, result_delusions=result_delusions)
     else:
         return render_template('view.html', form=form)
 
