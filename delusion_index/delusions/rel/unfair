@@ -1,0 +1,485 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/de/unfair/a /r/RelatedTo -",
+        "/c/de/unfair/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/d2de671210f5a0f425979d7373bf41e573ea06f9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/unfair/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/unfair"
+      ],
+      "start": "/c/de/unfair/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "unfair",
+      "surfaceText": "[[unfair]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/unfair/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/do_someone_dirty/v /r/RelatedTo -",
+        "/c/en/do_someone_dirty/v - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/090361a971aa2bb08d60d40d4da0434c8e2120d8",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/do_someone_dirty/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/do_someone_dirty"
+      ],
+      "start": "/c/en/do_someone_dirty/v",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "do someone dirty",
+      "surfaceText": "[[do someone dirty]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/do_someone_dirty/v/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/fraud/n /r/RelatedTo -",
+        "/c/en/fraud/n - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/0ab9a6d7a23fea8f18f04ba14795e325ac44560e",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/fraud/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/fraud"
+      ],
+      "start": "/c/en/fraud/n",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "fraud",
+      "surfaceText": "[[fraud]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/fraud/n/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/raw_deal/n /r/RelatedTo -",
+        "/c/en/raw_deal/n - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/17ac05bcdef70e2488be6e65070e4356ea46ea85",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/raw_deal/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/raw_deal"
+      ],
+      "start": "/c/en/raw_deal/n",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "raw deal",
+      "surfaceText": "[[raw deal]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/raw_deal/n/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/underdealing/n /r/RelatedTo -",
+        "/c/en/underdealing/n - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/8ac821c304c101990695f1cdc7e0195debd14a63",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/underdealing/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/underdealing"
+      ],
+      "start": "/c/en/underdealing/n",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "underdealing",
+      "surfaceText": "[[underdealing]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/underdealing/n/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/es",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/es/injusto/a /r/RelatedTo -",
+        "/c/es/injusto/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/6523a9c959c38e098861544c37ec435edb37b2a7",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/injusto/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/injusto"
+      ],
+      "start": "/c/es/injusto/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "injusto",
+      "surfaceText": "[[injusto]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/es/injusto/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/hu",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/hu/méltánytalan/a /r/RelatedTo -",
+        "/c/hu/méltánytalan/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/1402162f765f85142ff1152a6b52365d00915c04",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/méltánytalan/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/méltánytalan"
+      ],
+      "start": "/c/hu/méltánytalan/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "méltánytalan",
+      "surfaceText": "[[méltánytalan]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/hu/méltánytalan/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/it/sleale/a /r/RelatedTo -",
+        "/c/it/sleale/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/41df2f334919702bdd68538ce7efd2584b059c52",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sleale/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/sleale"
+      ],
+      "start": "/c/it/sleale/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "sleale",
+      "surfaceText": "[[sleale]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/sleale/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ka",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/ka/უსამართლო/a /r/RelatedTo -",
+        "/c/ka/უსამართლო/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/5bb7cb6bf16394f282d79492a82d4e5eec8c11e7",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/უსამართლო/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/უსამართლო"
+      ],
+      "start": "/c/ka/უსამართლო/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "უსამართლო",
+      "surfaceText": "[[უსამართლო]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ka/უსამართლო/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/la",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/la/iniquus/a /r/RelatedTo -",
+        "/c/la/iniquus/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/3bc7a8aa89e83575367687df4dace63f78b09e8c",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/iniquus/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/iniquus"
+      ],
+      "start": "/c/la/iniquus/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "iniquus",
+      "surfaceText": "[[iniquus]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/la/iniquus/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/nl",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/nl/eenzijdig/a /r/RelatedTo -",
+        "/c/nl/eenzijdig/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/1040301ac728746b7076de99183610795929d739",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/eenzijdig/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/eenzijdig"
+      ],
+      "start": "/c/nl/eenzijdig/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "eenzijdig",
+      "surfaceText": "[[eenzijdig]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/nl/eenzijdig/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/pt",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/pt/injusto/a /r/RelatedTo -",
+        "/c/pt/injusto/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/029adcfa005ec39a5643f6a5b75d46ceec0f0b37",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/injusto/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/injusto"
+      ],
+      "start": "/c/pt/injusto/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "injusto",
+      "surfaceText": "[[injusto]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/pt/injusto/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ru",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/ru/кривой/a /r/RelatedTo -",
+        "/c/ru/кривой/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/12e106be2f5229ca2fb098319365e763651381c6",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/кривой/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/кривой"
+      ],
+      "start": "/c/ru/кривой/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "кривой",
+      "surfaceText": "[[кривой]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ru/кривой/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/sh",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/sh/неправедан/a /r/RelatedTo -",
+        "/c/sh/неправедан/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/1c795aa848cb19790fb35a2114a19a860cef8bbb",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/неправедан/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/неправедан"
+      ],
+      "start": "/c/sh/неправедан/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "неправедан",
+      "surfaceText": "[[неправедан]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/sh/неправедан/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/foul/a /r/RelatedTo -",
+        "/c/en/foul/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/f292d69dac966ead91854245933f6a2ff90efb4f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/foul/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/foul"
+      ],
+      "start": "/c/en/foul/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "foul",
+      "surfaceText": "[[foul]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/foul/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/invidious/a /r/RelatedTo -",
+        "/c/en/invidious/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/b12ee330dab203fa67981493c74a028028257f75",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/invidious/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/invidious"
+      ],
+      "start": "/c/en/invidious/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "invidious",
+      "surfaceText": "[[invidious]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/invidious/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/en/usurer/n /r/RelatedTo -",
+        "/c/en/usurer/n - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/6030283347596c9a6ba449372d2a5ac206130253",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/usurer/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/usurer"
+      ],
+      "start": "/c/en/usurer/n",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "usurer",
+      "surfaceText": "[[usurer]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/usurer/n/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/fr",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/fr/déloyal/a /r/RelatedTo -",
+        "/c/fr/déloyal/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/abae5e376fedc7e11332e771a69f365bdfb0f430",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/déloyal/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/déloyal"
+      ],
+      "start": "/c/fr/déloyal/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "déloyal",
+      "surfaceText": "[[déloyal]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/fr/déloyal/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/hu",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/hu/tisztességtelen/a /r/RelatedTo -",
+        "/c/hu/tisztességtelen/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/04596debfedf1bf24f0dfbeebd358ed59d0e6e40",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/tisztességtelen/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/tisztességtelen"
+      ],
+      "start": "/c/hu/tisztességtelen/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "tisztességtelen",
+      "surfaceText": "[[tisztességtelen]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/hu/tisztességtelen/a/,/c/en/unfair/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/unfair",
+      "features": [
+        "/c/it/ingiustissimo/a /r/RelatedTo -",
+        "/c/it/ingiustissimo/a - /c/en/unfair",
+        "- /r/RelatedTo /c/en/unfair"
+      ],
+      "id": "/e/a3a2a3421d862a2108f3325fa9b0edb9ba13877f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ingiustissimo/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ingiustissimo"
+      ],
+      "start": "/c/it/ingiustissimo/a",
+      "surfaceEnd": "unfair",
+      "surfaceStart": "ingiustissimo",
+      "surfaceText": "[[ingiustissimo]] is related to [[unfair]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/ingiustissimo/a/,/c/en/unfair/]",
+      "weight": 1.0
+    }
+  ],
+  "numFound": 20
+}

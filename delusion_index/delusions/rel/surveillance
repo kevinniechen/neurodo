@@ -1,0 +1,485 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/de/überwachung/n /r/RelatedTo -",
+        "/c/de/überwachung/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/ad37dadfc04c6d95b297fd355a479a61af1cf391",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/Überwachung/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/Überwachung"
+      ],
+      "start": "/c/de/überwachung/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "Überwachung",
+      "surfaceText": "[[Überwachung]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/überwachung/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/concealment/n /r/RelatedTo -",
+        "/c/en/concealment/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/9b9b262f7d6b93f8c4175731b4bc9b9f4325577c",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/concealment/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/concealment"
+      ],
+      "start": "/c/en/concealment/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "concealment",
+      "surfaceText": "[[concealment]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/concealment/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/monitor/n /r/RelatedTo -",
+        "/c/en/monitor/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/cc5ad0351a03a71fd754089d2e4038e2736c639b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/monitoring/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/monitoring"
+      ],
+      "start": "/c/en/monitor/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "monitoring",
+      "surfaceText": "[[monitoring]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/monitor/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/surveillance_camera/n /r/RelatedTo -",
+        "/c/en/surveillance_camera/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/caf43947fa1e9e44c369eb96219c424a42d0081b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/surveillance_camera/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/surveillance_camera"
+      ],
+      "start": "/c/en/surveillance_camera/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "surveillance camera",
+      "surfaceText": "[[surveillance camera]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/surveillance_camera/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/unbugged/a /r/RelatedTo -",
+        "/c/en/unbugged/a - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/48abbcdb0635b0e062e0a3d26f7362fd18b9c8a5",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/unbugged/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/unbugged"
+      ],
+      "start": "/c/en/unbugged/a",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "unbugged",
+      "surfaceText": "[[unbugged]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/unbugged/a/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/wheel_artist/n /r/RelatedTo -",
+        "/c/en/wheel_artist/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/48c1f34029b60f3fe006ae0011076000000a5612",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/wheel_artist/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/wheel_artist"
+      ],
+      "start": "/c/en/wheel_artist/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "wheel artist",
+      "surfaceText": "[[wheel artist]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/wheel_artist/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/he",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/he/מעקב/n /r/RelatedTo -",
+        "/c/he/מעקב/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/13139769715d1b0061371085c8ee9b8dc86f4d7f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/מעקב/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/מעקב"
+      ],
+      "start": "/c/he/מעקב/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "מעקב",
+      "surfaceText": "[[מעקב]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/he/מעקב/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/it/sorveglianza/n /r/RelatedTo -",
+        "/c/it/sorveglianza/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/cca95abbb5f73622914c4a3451344ae32babcf2b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/sorveglianza/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/sorveglianza"
+      ],
+      "start": "/c/it/sorveglianza/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "sorveglianza",
+      "surfaceText": "[[sorveglianza]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/sorveglianza/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/it/videosorveglianza/n /r/RelatedTo -",
+        "/c/it/videosorveglianza/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/08dc3edae5b5a673bf157d97c3453ba81c1bd06b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/videosorveglianza/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/videosorveglianza"
+      ],
+      "start": "/c/it/videosorveglianza/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "videosorveglianza",
+      "surfaceText": "[[videosorveglianza]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/videosorveglianza/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/sh",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/sh/присмотра/n /r/RelatedTo -",
+        "/c/sh/присмотра/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/38d10bfc12b590e1a3574eee2a89cf0d7476bdb1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/присмотра/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/присмотра"
+      ],
+      "start": "/c/sh/присмотра/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "присмотра",
+      "surfaceText": "[[присмотра]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/sh/присмотра/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/sw",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/sw/ulinzi/n /r/RelatedTo -",
+        "/c/sw/ulinzi/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/694b54fecce34d95f67f40a9c325ffcd3c6e1cec",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ulinzi/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ulinzi"
+      ],
+      "start": "/c/sw/ulinzi/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "ulinzi",
+      "surfaceText": "[[ulinzi]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/sw/ulinzi/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cmn",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/zh/监视/v /r/RelatedTo -",
+        "/c/zh/监视/v - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/7f32edc3d85bc0f5c98762a5e47f84c9afdf1285",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/监视/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/监视"
+      ],
+      "start": "/c/zh/监视/v",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "监视",
+      "surfaceText": "[[监视]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/zh/监视/v/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/de",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/de/beobachtung/n /r/RelatedTo -",
+        "/c/de/beobachtung/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/a04d833f03968394da1170dfa6ebaaa2aafbbd10",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/Beobachtung/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/Beobachtung"
+      ],
+      "start": "/c/de/beobachtung/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "Beobachtung",
+      "surfaceText": "[[Beobachtung]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/de/beobachtung/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/equiveillance/n /r/RelatedTo -",
+        "/c/en/equiveillance/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/a3c4ba88d7b04cb20dd6c65140561f272b746248",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/equiveillance/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/equiveillance"
+      ],
+      "start": "/c/en/equiveillance/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "equiveillance",
+      "surfaceText": "[[equiveillance]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/equiveillance/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/passive_radar/n /r/RelatedTo -",
+        "/c/en/passive_radar/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/1dcd86fb07ca891e8a2cb6ff07fc2755d3ecc542",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/passive_radar/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/passive_radar"
+      ],
+      "start": "/c/en/passive_radar/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "passive radar",
+      "surfaceText": "[[passive radar]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/passive_radar/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/en/sousveillance/n /r/RelatedTo -",
+        "/c/en/sousveillance/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/41da7b41b69bcbfe7896d77811748e1943f1d71f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/sousveillance/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/sousveillance"
+      ],
+      "start": "/c/en/sousveillance/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "sousveillance",
+      "surfaceText": "[[sousveillance]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/sousveillance/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/fr",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/fr/surveiller/v /r/RelatedTo -",
+        "/c/fr/surveiller/v - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/8ce29b4638b03ea46092eb2519c80a7bb097a416",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/surveiller/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/surveiller"
+      ],
+      "start": "/c/fr/surveiller/v",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "surveiller",
+      "surfaceText": "[[surveiller]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/fr/surveiller/v/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/it/autosorveglianza/n /r/RelatedTo -",
+        "/c/it/autosorveglianza/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/a39cf9c7421d056086ed0ab057cbdc10f7496c50",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/autosorveglianza/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/autosorveglianza"
+      ],
+      "start": "/c/it/autosorveglianza/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "autosorveglianza",
+      "surfaceText": "[[autosorveglianza]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/autosorveglianza/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/it/specolazione/n /r/RelatedTo -",
+        "/c/it/specolazione/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/a8c42ba9dc2f182d73f732877c4a639771aa52ed",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/specolazione/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/specolazione"
+      ],
+      "start": "/c/it/specolazione/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "specolazione",
+      "surfaceText": "[[specolazione]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/specolazione/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/pt",
+      "end": "/c/en/surveillance",
+      "features": [
+        "/c/pt/vigilância/n /r/RelatedTo -",
+        "/c/pt/vigilância/n - /c/en/surveillance",
+        "- /r/RelatedTo /c/en/surveillance"
+      ],
+      "id": "/e/58ac0ffadf9674cc26cb930db322e29a5b0a6779",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/vigilância/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/vigilância"
+      ],
+      "start": "/c/pt/vigilância/n",
+      "surfaceEnd": "surveillance",
+      "surfaceStart": "vigilância",
+      "surfaceText": "[[vigilância]] is related to [[surveillance]]",
+      "uri": "/a/[/r/RelatedTo/,/c/pt/vigilância/n/,/c/en/surveillance/]",
+      "weight": 1.0
+    }
+  ],
+  "numFound": 20
+}

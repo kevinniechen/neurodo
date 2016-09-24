@@ -1,0 +1,472 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/minute /r/RelatedTo -",
+        "/c/en/minute - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c24e236ba7e5eccc54db0fd0ff1532539db3f1c9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/minute",
+      "surfaceEnd": "time",
+      "surfaceStart": "minute",
+      "surfaceText": "[[minute]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/minute/,/c/en/time/]",
+      "weight": 4.548409874477495
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/hour /r/RelatedTo -",
+        "/c/en/hour - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/7f7c6cf3790079caa37ea9eea17c7ae12af38f01",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/hour",
+      "surfaceEnd": "time",
+      "surfaceStart": "hour",
+      "surfaceText": "[[hour]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/hour/,/c/en/time/]",
+      "weight": 4.252677068566603
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/clock /r/RelatedTo -",
+        "/c/en/clock - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/f15bc2665a978caedc4309dc86f9f0f4d37256b5",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/clock",
+      "surfaceEnd": "time",
+      "surfaceStart": "clock",
+      "surfaceText": "[[clock]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/clock/,/c/en/time/]",
+      "weight": 3.4477480520718036
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/watch /r/RelatedTo -",
+        "/c/en/watch - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c3ff2876c239da6b06620c6e7ff951afa420cc62",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/watch",
+      "surfaceEnd": "time",
+      "surfaceStart": "watch",
+      "surfaceText": "[[watch]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/watch/,/c/en/time/]",
+      "weight": 2.9594977234476505
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/morning /r/RelatedTo -",
+        "/c/en/morning - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/60566b3c3d00fc3041006890b1031be9f8f18d9b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/morning",
+      "surfaceEnd": "time",
+      "surfaceStart": "morning",
+      "surfaceText": "[[morning]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/morning/,/c/en/time/]",
+      "weight": 2.93982693195035
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/even /r/RelatedTo -",
+        "/c/en/even - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/116e468d1152f4521c0330e3dcb5f1c18e886c8b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/even",
+      "surfaceEnd": "time",
+      "surfaceStart": "evening",
+      "surfaceText": "[[evening]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/even/,/c/en/time/]",
+      "weight": 2.831847052057534
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/always /r/RelatedTo -",
+        "/c/en/always - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/b3c424b4c537305bce081ecfbe170b15335cdd49",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/always",
+      "surfaceEnd": "time",
+      "surfaceStart": "always",
+      "surfaceText": "[[always]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/always/,/c/en/time/]",
+      "weight": 2.7371443420248567
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/year /r/RelatedTo -",
+        "/c/en/year - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/3776bd41e55347b9fc635695693249cedec5be26",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/year",
+      "surfaceEnd": "time",
+      "surfaceStart": "year",
+      "surfaceText": "[[year]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/year/,/c/en/time/]",
+      "weight": 2.341579161290503
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/month /r/RelatedTo -",
+        "/c/en/month - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/9a9ac33ed8356fdae8e82108d3817cc26f2b96b3",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/month",
+      "surfaceEnd": "time",
+      "surfaceStart": "month",
+      "surfaceText": "[[month]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/month/,/c/en/time/]",
+      "weight": 2.260460789533698
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/century /r/RelatedTo -",
+        "/c/en/century - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/a5f1d329078cef0f6cb18d68f8ec3e6787750808",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/century",
+      "surfaceEnd": "time",
+      "surfaceStart": "century",
+      "surfaceText": "[[century]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/century/,/c/en/time/]",
+      "weight": 2.24782107912029
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/day /r/RelatedTo -",
+        "/c/en/day - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/80cb3a24962d19c2dfc36fd3d711eff664207354",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/day",
+      "surfaceEnd": "time",
+      "surfaceStart": "day",
+      "surfaceText": "[[day]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/day/,/c/en/time/]",
+      "weight": 2.2374038051465397
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/double /r/RelatedTo -",
+        "/c/en/double - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/fb6fd0b0e023f5ee15c3d74c10deba7cb25b0fc1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/double",
+      "surfaceEnd": "times",
+      "surfaceStart": "double",
+      "surfaceText": "[[double]] is related to [[times]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/double/,/c/en/time/]",
+      "weight": 2.1536602487768723
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/el",
+      "end": "/c/en/time",
+      "features": [
+        "/c/el/φορά/n /r/RelatedTo -",
+        "/c/el/φορά/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/eb35ccad847b9aef3e162b184a9826b0f2e400e4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/φορά/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/φορά/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/φορά"
+      ],
+      "start": "/c/el/φορά/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "φορά",
+      "surfaceText": "[[φορά]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/el/φορά/n/,/c/en/time/]",
+      "weight": 2.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/week /r/RelatedTo -",
+        "/c/en/week - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/f67e934e7e4c1f34ef2dfcfda0109b306e3ec1c4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/week",
+      "surfaceEnd": "time",
+      "surfaceStart": "week",
+      "surfaceText": "[[week]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/week/,/c/en/time/]",
+      "weight": 1.6796505385781964
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/mistime/v /r/RelatedTo -",
+        "/c/en/mistime/v - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/afc6299e842f69611a34b7956e8516717b99cf9d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/mistime/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/mistime"
+      ],
+      "start": "/c/en/mistime/v",
+      "surfaceEnd": "time",
+      "surfaceStart": "mistime",
+      "surfaceText": "[[mistime]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/mistime/v/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/id",
+      "end": "/c/en/time",
+      "features": [
+        "/c/ms/waktu/n /r/RelatedTo -",
+        "/c/ms/waktu/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/02962704e73e003f64934ca66e45e3e3d56f92e4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/waktu/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/waktu"
+      ],
+      "start": "/c/ms/waktu/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "waktu",
+      "surfaceText": "[[waktu]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ms/waktu/n/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/minute /r/RelatedTo -",
+        "/c/en/minute - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c24e236ba7e5eccc54db0fd0ff1532539db3f1c9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/minute",
+      "surfaceEnd": "time",
+      "surfaceStart": "minute",
+      "surfaceText": "[[minute]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/minute/,/c/en/time/]",
+      "weight": 4.548409874477495
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/eo",
+      "end": "/c/en/time",
+      "features": [
+        "/c/eo/plurfoje/r /r/RelatedTo -",
+        "/c/eo/plurfoje/r - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/5b230cf57d9bf5d0a638c4dacd14c5d5aa57f03a",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/plurfoje/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/plurfoje"
+      ],
+      "start": "/c/eo/plurfoje/r",
+      "surfaceEnd": "time",
+      "surfaceStart": "plurfoje",
+      "surfaceText": "[[plurfoje]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/eo/plurfoje/r/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/la",
+      "end": "/c/en/time",
+      "features": [
+        "/c/la/vetustus/a /r/RelatedTo -",
+        "/c/la/vetustus/a - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/eacc9c6c3fd6131508c6bbaf2b414a9ecf3339ae",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/vetustus/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/vetustus"
+      ],
+      "start": "/c/la/vetustus/a",
+      "surfaceEnd": "time",
+      "surfaceStart": "vetustus",
+      "surfaceText": "[[vetustus]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/la/vetustus/a/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/yi",
+      "end": "/c/en/time",
+      "features": [
+        "/c/yi/צײַט/n /r/RelatedTo -",
+        "/c/yi/צײַט/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/9072c3a44bae08ed6f8c19943b90989c3658e859",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/צײַט/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/צײַט"
+      ],
+      "start": "/c/yi/צײַט/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "צײַט",
+      "surfaceText": "[[צײַט]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/yi/צײַט/n/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    }
+  ],
+  "numFound": 20
+}

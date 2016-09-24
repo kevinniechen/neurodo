@@ -1,0 +1,148 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/en/new_religious_movement/n /r/RelatedTo -",
+        "/c/en/new_religious_movement/n - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/ea1d63ff806da2705cca4f151624e76fbe34025f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/new_religious_movement/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/new_religious_movement"
+      ],
+      "start": "/c/en/new_religious_movement/n",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "new religious movement",
+      "surfaceText": "[[new religious movement]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/new_religious_movement/n/,/c/en/mind_control/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/en/thrall/n /r/RelatedTo -",
+        "/c/en/thrall/n - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/b57f20de5a6393d7001cfa30b89e422963823f82",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/thrall/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/thrall"
+      ],
+      "start": "/c/en/thrall/n",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "thrall",
+      "surfaceText": "[[thrall]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/thrall/n/,/c/en/mind_control/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/en/large_group_awareness_train/n /r/RelatedTo -",
+        "/c/en/large_group_awareness_train/n - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/9414ef41db9197ae62a5e1875b6c9a394ae7fef1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/large-group_awareness_training/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/large-group_awareness_training"
+      ],
+      "start": "/c/en/large_group_awareness_train/n",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "large-group awareness training",
+      "surfaceText": "[[large-group awareness training]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/large_group_awareness_train/n/,/c/en/mind_control/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/en/self_religion/n /r/RelatedTo -",
+        "/c/en/self_religion/n - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/f38aa689308e4cede5eedfcbbc33cc0c84a42546",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/self_religion/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/self_religion"
+      ],
+      "start": "/c/en/self_religion/n",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "self religion",
+      "surfaceText": "[[self religion]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/self_religion/n/,/c/en/mind_control/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/fi",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/fi/mielenhallinta/n /r/RelatedTo -",
+        "/c/fi/mielenhallinta/n - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/71b308896fbeb43b3cba63822b86e05f02a4cea6",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/mielenhallinta/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/mielenhallinta"
+      ],
+      "start": "/c/fi/mielenhallinta/n",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "mielenhallinta",
+      "surfaceText": "[[mielenhallinta]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/fi/mielenhallinta/n/,/c/en/mind_control/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/mind_control",
+      "features": [
+        "/c/en/possess /r/RelatedTo -",
+        "/c/en/possess - /c/en/mind_control",
+        "- /r/RelatedTo /c/en/mind_control"
+      ],
+      "id": "/e/71ead6d5af0fb6c56d0dba0b2450e484e0c637b6",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/possess",
+      "surfaceEnd": "mind control",
+      "surfaceStart": "possess",
+      "surfaceText": "[[possess]] is related to [[mind control]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/possess/,/c/en/mind_control/]",
+      "weight": 0.011928908777529704
+    }
+  ],
+  "numFound": 6
+}

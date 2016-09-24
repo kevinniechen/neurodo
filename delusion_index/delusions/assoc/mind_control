@@ -1,0 +1,50 @@
+{
+  "similar": [
+    [
+      "/c/en/mind_control",
+      0.9961963708710508
+    ],
+    [
+      "/c/en/mistrust",
+      0.7863843118021889
+    ],
+    [
+      "/c/en/brain_tumor",
+      0.7840057760449453
+    ],
+    [
+      "/c/en/schizophrenia",
+      0.7805530710980895
+    ],
+    [
+      "/c/en/be_insult",
+      0.764779481410669
+    ],
+    [
+      "/c/en/be_startle",
+      0.7637869903471374
+    ],
+    [
+      "/c/en/speculativeness",
+      0.7630769863843122
+    ],
+    [
+      "/c/en/legal_problem",
+      0.7623267534956577
+    ],
+    [
+      "/c/en/physical_pain",
+      0.7616683419491894
+    ],
+    [
+      "/c/en/bad_feel",
+      0.7616609667368266
+    ]
+  ],
+  "terms": [
+    [
+      "/c/en/mind_control",
+      1.0
+    ]
+  ]
+}

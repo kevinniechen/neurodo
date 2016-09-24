@@ -1,0 +1,485 @@
+{
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/bg",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/bg/чужденка/n /r/RelatedTo -",
+        "/c/bg/чужденка/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/651798adf539943535d1b9e8b5f653637550286e",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/чужденка/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/чужденка"
+      ],
+      "start": "/c/bg/чужденка/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "чужденка",
+      "surfaceText": "[[чужденка]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/bg/чужденка/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/cs",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/cs/mimozemšťan/n /r/RelatedTo -",
+        "/c/cs/mimozemšťan/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/f9b3ad7c5f0599a5f9c4448a54b40068ebd124ec",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/mimozemšťan/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/mimozemšťan"
+      ],
+      "start": "/c/cs/mimozemšťan/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "mimozemšťan",
+      "surfaceText": "[[mimozemšťan]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/cs/mimozemšťan/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/el",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/el/ξένη/n /r/RelatedTo -",
+        "/c/el/ξένη/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/117091c34dc8ed15a92c1c84fe539b364b97e7a3",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ξένη/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ξένη"
+      ],
+      "start": "/c/el/ξένη/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "ξένη",
+      "surfaceText": "[[ξένη]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/el/ξένη/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/el",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/el/ξένοσ/n /r/RelatedTo -",
+        "/c/el/ξένοσ/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/52a11ea331eec7b6dcb6786b5edf3a2feb68e162",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/ξένος/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/ξένος"
+      ],
+      "start": "/c/el/ξένοσ/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "ξένος",
+      "surfaceText": "[[ξένος]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/el/ξένοσ/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/culture_shock/n /r/RelatedTo -",
+        "/c/en/culture_shock/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/d02bd7e73c4fa0265d938ad40d169395983bc980",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/culture_shock/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/culture_shock"
+      ],
+      "start": "/c/en/culture_shock/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "culture shock",
+      "surfaceText": "[[culture shock]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/culture_shock/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/extraterrestrial /r/RelatedTo -",
+        "/c/en/extraterrestrial - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/b77b34c22bac54a4944543ea2c1d0ac74c944276",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/extraterrestrial/]",
+      "sources": [
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/extraterrestrial"
+      ],
+      "start": "/c/en/extraterrestrial",
+      "surfaceEnd": "alien",
+      "surfaceStart": "extraterrestrial",
+      "surfaceText": "[[extraterrestrial]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/extraterrestrial/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/klingon/n /r/RelatedTo -",
+        "/c/en/klingon/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/cf46607a1239af7cd51cbc3709faf986f4827b6f",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/Klingon/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/Klingon"
+      ],
+      "start": "/c/en/klingon/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "Klingon",
+      "surfaceText": "[[Klingon]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/klingon/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/nonalien/n /r/RelatedTo -",
+        "/c/en/nonalien/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/6bb3abd7d581bf54f76e2d2f69727815c8ac3cbc",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/nonalien/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/nonalien"
+      ],
+      "start": "/c/en/nonalien/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "nonalien",
+      "surfaceText": "[[nonalien]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/nonalien/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/nonresident/n /r/RelatedTo -",
+        "/c/en/nonresident/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/0eb76c8868e81e0f192264e99da974ba8d6a287b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/nonresident/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/nonresident"
+      ],
+      "start": "/c/en/nonresident/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "nonresident",
+      "surfaceText": "[[nonresident]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/nonresident/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/romulan/n /r/RelatedTo -",
+        "/c/en/romulan/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/957f816a416642b3306463e7db2f44ffe0da5105",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/Romulan/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/Romulan"
+      ],
+      "start": "/c/en/romulan/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "Romulan",
+      "surfaceText": "[[Romulan]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/romulan/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/en/xenolinguistics/n /r/RelatedTo -",
+        "/c/en/xenolinguistics/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/e3754cba33e1ef5edd8a1658557a50dd2a13496d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/xenolinguistics/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/xenolinguistics"
+      ],
+      "start": "/c/en/xenolinguistics/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "xenolinguistics",
+      "surfaceText": "[[xenolinguistics]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/xenolinguistics/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/eo",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/eo/alilandulo/n /r/RelatedTo -",
+        "/c/eo/alilandulo/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/e505b011e3b14b0d2bce0dd6137b1824ac78bdf0",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/alilandulo/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/alilandulo"
+      ],
+      "start": "/c/eo/alilandulo/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "alilandulo",
+      "surfaceText": "[[alilandulo]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/eo/alilandulo/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/fo",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/fo/fremmandur/a /r/RelatedTo -",
+        "/c/fo/fremmandur/a - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/7e93d97f2764b3cfe8184dd33ad4c573eb946303",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/fremmandur/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/fremmandur"
+      ],
+      "start": "/c/fo/fremmandur/a",
+      "surfaceEnd": "alien",
+      "surfaceStart": "fremmandur",
+      "surfaceText": "[[fremmandur]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/fo/fremmandur/a/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/hy",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/hy/օտար/a /r/RelatedTo -",
+        "/c/hy/օտար/a - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/af40b3f05886ab9f8a537a1e85c685d1e686e78c",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/օտար/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/օտար"
+      ],
+      "start": "/c/hy/օտար/a",
+      "surfaceEnd": "alien",
+      "surfaceStart": "օտար",
+      "surfaceText": "[[օտար]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/hy/օտար/a/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/hy",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/hy/օտարոտի/a /r/RelatedTo -",
+        "/c/hy/օտարոտի/a - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/3e02c5b450aef61cd4d4ac0f2a35d351d4f22f74",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/օտարոտի/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/օտարոտի"
+      ],
+      "start": "/c/hy/օտարոտի/a",
+      "surfaceEnd": "alien",
+      "surfaceStart": "օտարոտի",
+      "surfaceText": "[[օտարոտի]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/hy/օտարոտի/a/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/it/aliena/n /r/RelatedTo -",
+        "/c/it/aliena/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/17613d0e07626ea3c6eeda2037f315bf0f3c30af",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/aliena/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/aliena"
+      ],
+      "start": "/c/it/aliena/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "aliena",
+      "surfaceText": "[[aliena]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/aliena/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/it",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/it/alieno/n /r/RelatedTo -",
+        "/c/it/alieno/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/c363269c380e2161396cd938b128f1e60ac868ba",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/alieno/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/alieno"
+      ],
+      "start": "/c/it/alieno/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "alieno",
+      "surfaceText": "[[alieno]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/it/alieno/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/ja",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/ja/異星人/n /r/RelatedTo -",
+        "/c/ja/異星人/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/7b500aa388a097d8ba4737f193e52ef82b37c806",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/異星人/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/異星人"
+      ],
+      "start": "/c/ja/異星人/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "異星人",
+      "surfaceText": "[[異星人]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ja/異星人/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/pt",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/pt/óvni/n /r/RelatedTo -",
+        "/c/pt/óvni/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/e644c6e9dc8e1384e9be896bb7c4f2674f5d28e4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/óvni/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/óvni"
+      ],
+      "start": "/c/pt/óvni/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "óvni",
+      "surfaceText": "[[óvni]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/pt/óvni/n/,/c/en/alien/]",
+      "weight": 1.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/sq",
+      "end": "/c/en/alien",
+      "features": [
+        "/c/sq/huaj/n /r/RelatedTo -",
+        "/c/sq/huaj/n - /c/en/alien",
+        "- /r/RelatedTo /c/en/alien"
+      ],
+      "id": "/e/b1d269803409ad380c3491c9abb9c946876ed1e1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/huaj/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/huaj"
+      ],
+      "start": "/c/sq/huaj/n",
+      "surfaceEnd": "alien",
+      "surfaceStart": "huaj",
+      "surfaceText": "[[huaj]] is related to [[alien]]",
+      "uri": "/a/[/r/RelatedTo/,/c/sq/huaj/n/,/c/en/alien/]",
+      "weight": 1.0
+    }
+  ],
+  "numFound": 20
+}
