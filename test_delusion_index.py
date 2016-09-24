@@ -7,6 +7,10 @@ from corpusdict import compute_basics
 default_delusion_categories = [
 'time',
 'self',
+'surveillance',
+'unfair',
+'mind_control',
+'alien',
 ]
 
 def index_file(file_name, concept_dict):

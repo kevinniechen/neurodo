@@ -1,6 +1,0 @@
-http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/RelatedTo&end=/c/en/time&limit=20&filter=/c/en
-http://conceptnet5.media.mit.edu/data/5.4/search?rel=/r/RelatedTo&end=/c/en/self&limit=20&filter=/c/en
-['self', 'oneself', 'self', 'ego', 'self']
-['minute', 'hour', 'clock', 'watch', 'morning', 'even', 'year', 'month', 'century', 'day', 'double', 'week', 'mistime', 'minute', 'time']
-{'self': 0.0022252471103245334, 'time': 0.034358305957307607}
-{'self': 0.0, 'time': 0.019885624193908109}
