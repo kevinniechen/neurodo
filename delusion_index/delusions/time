@@ -1,810 +1,472 @@
 {
-  "similar": [
-    [
-      "/c/en/time",
-      0.9997955539916423
-    ],
-    [
-      "/c/ms/waktu",
-      0.9707577200575452
-    ],
-    [
-      "/c/fr/fois",
-      0.9692542005914361
-    ],
-    [
-      "/c/cs/krát",
-      0.9683679198830092
-    ],
-    [
-      "/c/fi/ajoitus",
-      0.9678164321748576
-    ],
-    [
-      "/c/en/hypertime",
-      0.9672794423607136
-    ],
-    [
-      "/c/ms/masa",
-      0.9671904902233921
-    ],
-    [
-      "/c/sw/wakati",
-      0.9669607161444135
-    ],
-    [
-      "/c/en/nontime",
-      0.9668651516934728
-    ],
-    [
-      "/c/en/timewise",
-      0.9666747400421483
-    ],
-    [
-      "/c/nl/keer",
-      0.9663037572941909
-    ],
-    [
-      "/c/en/untime",
-      0.966218724484456
-    ],
-    [
-      "/c/ja/タイミング",
-      0.9661609195175633
-    ],
-    [
-      "/c/en/chowtime",
-      0.9659028390038823
-    ],
-    [
-      "/c/en/timeling",
-      0.9658611591808794
-    ],
-    [
-      "/c/non/tími",
-      0.9656866006818285
-    ],
-    [
-      "/c/cs/načasování",
-      0.965367622089959
-    ],
-    [
-      "/c/ku/dem",
-      0.9653006713042973
-    ],
-    [
-      "/c/en/amsterdam_time",
-      0.9651241521592828
-    ],
-    [
-      "/c/fr/chronométrer",
-      0.9649123777050744
-    ],
-    [
-      "/c/pl/razy",
-      0.9647616247125086
-    ],
-    [
-      "/c/zh/时间",
-      0.9646554794078173
-    ],
-    [
-      "/c/en/zonetime",
-      0.9644947819104074
-    ],
-    [
-      "/c/tpi/taim",
-      0.9644932635253253
-    ],
-    [
-      "/c/en/timeous",
-      0.9644819320833322
-    ],
-    [
-      "/c/fi/ottaa_aika",
-      0.9644780660975316
-    ],
-    [
-      "/c/fi/kertaa",
-      0.9644431257952419
-    ],
-    [
-      "/c/en/retime",
-      0.9643348870408113
-    ],
-    [
-      "/c/gd/uair",
-      0.9639727362204974
-    ],
-    [
-      "/c/tg/вақт",
-      0.9638979842422691
-    ],
-    [
-      "/c/en/timist",
-      0.9638551714685237
-    ],
-    [
-      "/c/en/eigentime",
-      0.9636073082025224
-    ],
-    [
-      "/c/ms/kala",
-      0.9632930571478795
-    ],
-    [
-      "/c/fi/ajanotto",
-      0.9631644925002354
-    ],
-    [
-      "/c/rm/oura",
-      0.9626819134839544
-    ],
-    [
-      "/c/rm/ura",
-      0.9624810909164028
-    ],
-    [
-      "/c/ar/وقت",
-      0.9621651686996697
-    ],
-    [
-      "/c/en/crunch_time",
-      0.9621609264124152
-    ],
-    [
-      "/c/fa/وقت",
-      0.9621559876437318
-    ],
-    [
-      "/c/ota/وقت",
-      0.9616548159100667
-    ],
-    [
-      "/c/ja/時刻",
-      0.9611634522628008
-    ],
-    [
-      "/c/de/zeit",
-      0.9606960214851417
-    ],
-    [
-      "/c/en/greenwich_mean_time",
-      0.9600993712957238
-    ],
-    [
-      "/c/sr/vakat",
-      0.9600229956999697
-    ],
-    [
-      "/c/sr/вакат",
-      0.9600229956999697
-    ],
-    [
-      "/c/es/hora",
-      0.9599725211978704
-    ],
-    [
-      "/c/en/suppertime",
-      0.9599722572967267
-    ],
-    [
-      "/c/is/sinnum",
-      0.9596166502913348
-    ],
-    [
-      "/c/en/timeful",
-      0.9587853046078684
-    ],
-    [
-      "/c/en/timezone",
-      0.9586000298807645
-    ],
-    [
-      "/c/ang/stund",
-      0.957990205324956
-    ],
-    [
-      "/c/en/between_time",
-      0.9579248498302897
-    ],
-    [
-      "/c/fr/heure",
-      0.9578659589207746
-    ],
-    [
-      "/c/en/mistime",
-      0.957774037956671
-    ],
-    [
-      "/c/cu/часъ",
-      0.9576626958202186
-    ],
-    [
-      "/c/cu/ⱍⰰⱄⱏ",
-      0.9576626958202186
-    ],
-    [
-      "/c/en/timescape",
-      0.9553828310678046
-    ],
-    [
-      "/c/sv/tid",
-      0.9548434997716564
-    ],
-    [
-      "/c/en/anytime",
-      0.9548068610935215
-    ],
-    [
-      "/c/zh/下次",
-      0.9547640222374078
-    ],
-    [
-      "/c/en/daylight_save_time",
-      0.9536643320349428
-    ],
-    [
-      "/c/ko/번",
-      0.9522570670575441
-    ],
-    [
-      "/c/en/any_time",
-      0.9520256074268243
-    ],
-    [
-      "/c/ko/시간",
-      0.9517387822960491
-    ],
-    [
-      "/c/en/waketime",
-      0.9515985809585334
-    ],
-    [
-      "/c/en/timespan",
-      0.9514605589986501
-    ],
-    [
-      "/c/en/timecode",
-      0.951454659682118
-    ],
-    [
-      "/c/fo/tími",
-      0.951417791468417
-    ],
-    [
-      "/c/es/horario",
-      0.9508807496057388
-    ],
-    [
-      "/c/it/orario",
-      0.9505109920303314
-    ],
-    [
-      "/c/en/fourth_dimension",
-      0.9499307056269711
-    ],
-    [
-      "/c/en/time_of_day",
-      0.9492302210076282
-    ],
-    [
-      "/c/el/επί",
-      0.948844771987927
-    ],
-    [
-      "/c/en/naptime",
-      0.9487565086742628
-    ],
-    [
-      "/c/fro/houre",
-      0.9484692605999433
-    ],
-    [
-      "/c/fi/kellottaa",
-      0.947974911307284
-    ],
-    [
-      "/c/sv/gånger",
-      0.9479728206352311
-    ],
-    [
-      "/c/en/compile_time",
-      0.9474845003233954
-    ],
-    [
-      "/c/fi/aika",
-      0.946470530689801
-    ],
-    [
-      "/c/mn/цаг",
-      0.9453503492017659
-    ],
-    [
-      "/c/ca/hora",
-      0.9452342819262044
-    ],
-    [
-      "/c/en/seasonableness",
-      0.9428718442753761
-    ],
-    [
-      "/c/is/stund",
-      0.9425551286348308
-    ],
-    [
-      "/c/nl/klokken",
-      0.9407421799026865
-    ],
-    [
-      "/c/en/timebox",
-      0.9388219623630251
-    ],
-    [
-      "/c/sr/vura",
-      0.9381725039415681
-    ],
-    [
-      "/c/it/minutaggio",
-      0.937594620618953
-    ],
-    [
-      "/c/ja/タイム",
-      0.937352446579506
-    ],
-    [
-      "/c/en/time_frame",
-      0.9371741623594873
-    ],
-    [
-      "/c/nl/tijd",
-      0.9368060905834491
-    ],
-    [
-      "/c/en/mealtime",
-      0.9359812090299836
-    ],
-    [
-      "/c/en/timeproof",
-      0.9355357901560121
-    ],
-    [
-      "/c/en/hour",
-      0.9341718332770012
-    ],
-    [
-      "/c/en/timeshare",
-      0.9328997127013906
-    ],
-    [
-      "/c/en/railway_time",
-      0.9309897486722561
-    ],
-    [
-      "/c/en/downtime",
-      0.9294338810665321
-    ],
-    [
-      "/c/en/absolute_time",
-      0.9292274181145748
-    ],
-    [
-      "/c/en/half_hour",
-      0.92798524152498
-    ],
-    [
-      "/c/en/timesheet",
-      0.9276661435745415
-    ],
-    [
-      "/c/gl/hora",
-      0.9268568820990213
-    ],
-    [
-      "/c/en/timesuck",
-      0.9259896419885918
-    ],
-    [
-      "/c/en/bedtime",
-      0.9242009967434485
-    ],
-    [
-      "/c/en/time_zone",
-      0.9239274120100345
-    ],
-    [
-      "/c/en/timely",
-      0.921722533907974
-    ],
-    [
-      "/c/en/horary",
-      0.9213735111266292
-    ],
-    [
-      "/c/en/time_standard",
-      0.9202071974188389
-    ],
-    [
-      "/c/en/time_code",
-      0.9199736313390223
-    ],
-    [
-      "/c/en/hourly",
-      0.9197163671852072
-    ],
-    [
-      "/c/en/nanosecond",
-      0.9190689991844523
-    ],
-    [
-      "/c/de/uhrzeit",
-      0.9176125194617404
-    ],
-    [
-      "/c/en/synchronous",
-      0.9173863346954133
-    ],
-    [
-      "/c/en/arrow_of_time",
-      0.9170526323601664
-    ],
-    [
-      "/c/en/dinnertime",
-      0.9161958364599609
-    ],
-    [
-      "/c/en/60_minute",
-      0.915145243020544
-    ],
-    [
-      "/c/en/timeout",
-      0.9151156961171328
-    ],
-    [
-      "/c/hy/վայրկյան",
-      0.9146998174485
-    ],
-    [
-      "/c/en/time_horizon",
-      0.9135101384649416
-    ],
-    [
-      "/c/fro/ore",
-      0.9135071645147205
-    ],
-    [
-      "/c/la/hora",
-      0.9118727455286518
-    ],
-    [
-      "/c/en/new_york_minute",
-      0.9116287434928371
-    ],
-    [
-      "/c/ru/час",
-      0.9110851058849083
-    ],
-    [
-      "/c/en/timebase",
-      0.9110231634252254
-    ],
-    [
-      "/c/en/time_measure",
-      0.9102428840984321
-    ],
-    [
-      "/c/zh/上次",
-      0.9083593691261803
-    ],
-    [
-      "/c/en/dwell_time",
-      0.9073418496039517
-    ],
-    [
-      "/c/ka/განრიგი",
-      0.9065713966659429
-    ],
-    [
-      "/c/en/teatime",
-      0.9062574148284611
-    ],
-    [
-      "/c/ba/ваҡыт",
-      0.9031906755474872
-    ],
-    [
-      "/c/en/short_time",
-      0.9027129731833494
-    ],
-    [
-      "/c/en/high_time",
-      0.9020261569408822
-    ],
-    [
-      "/c/el/φορά",
-      0.9016013062340105
-    ],
-    [
-      "/c/en/timeless",
-      0.9001194003119984
-    ],
-    [
-      "/c/ms/jam",
-      0.8990976487088823
-    ],
-    [
-      "/c/ja/期間",
-      0.8987129754647194
-    ],
-    [
-      "/c/en/standard_time",
-      0.8986475240939438
-    ],
-    [
-      "/c/de/stunde",
-      0.898547399549449
-    ],
-    [
-      "/c/en/timer",
-      0.8974764017895848
-    ],
-    [
-      "/c/ms/saat",
-      0.8964109738645872
-    ],
-    [
-      "/c/en/geological_time",
-      0.8944870315864223
-    ],
-    [
-      "/c/ja/時",
-      0.8942748357803346
-    ],
-    [
-      "/c/en/yestertime",
-      0.8936290399627331
-    ],
-    [
-      "/c/en/uptime",
-      0.8926456555071163
-    ],
-    [
-      "/c/en/lunchtime",
-      0.8920210628220149
-    ],
-    [
-      "/c/fi/rytmitys",
-      0.8903196817217469
-    ],
-    [
-      "/c/en/timekeeping",
-      0.8891479464955875
-    ],
-    [
-      "/c/en/morningtide",
-      0.8885456463542659
-    ],
-    [
-      "/c/non/tíð",
-      0.8883867656067649
-    ],
-    [
-      "/c/it/ora",
-      0.887211497397208
-    ],
-    [
-      "/c/sr/ura",
-      0.8871405922734065
-    ],
-    [
-      "/c/en/tardiness",
-      0.8855800369759443
-    ],
-    [
-      "/c/en/rush_hour",
-      0.8853633863356379
-    ],
-    [
-      "/c/en/time_of_arrival",
-      0.8850746134648875
-    ],
-    [
-      "/c/en/timewave",
-      0.8842236180394237
-    ],
-    [
-      "/c/en/clock_up",
-      0.8834066967625038
-    ],
-    [
-      "/c/sr/vijek",
-      0.8828445128033731
-    ],
-    [
-      "/c/sr/vek",
-      0.8828180070021014
-    ],
-    [
-      "/c/sr/век",
-      0.8824321489766129
-    ],
-    [
-      "/c/sr/вијек",
-      0.8824321489766129
-    ],
-    [
-      "/c/hi/घड़ी",
-      0.8819733919345465
-    ],
-    [
-      "/c/ur/گھڑی",
-      0.8819733919345465
-    ],
-    [
-      "/c/el/ώρα",
-      0.8813838375313912
-    ],
-    [
-      "/c/en/close_time",
-      0.8802212113760094
-    ],
-    [
-      "/c/en/subsecond",
-      0.8780402035394211
-    ],
-    [
-      "/c/grc/χρόνοσ",
-      0.8777487106402158
-    ],
-    [
-      "/c/gl/minuto",
-      0.8763065595457745
-    ],
-    [
-      "/c/nn/no",
-      0.8762064990189108
-    ],
-    [
-      "/c/en/onetime",
-      0.8758332444281334
-    ],
-    [
-      "/c/ja/何時",
-      0.8758256438650597
-    ],
-    [
-      "/c/gbc/wangala",
-      0.875503968833286
-    ],
-    [
-      "/c/en/realtime",
-      0.8745696657923087
-    ],
-    [
-      "/c/en/time_bill",
-      0.8742788329018606
-    ],
-    [
-      "/c/en/o'clock",
-      0.8734049581420232
-    ],
-    [
-      "/c/en/time_interval",
-      0.8730493771355239
-    ],
-    [
-      "/c/en/flexitime",
-      0.8725988298474039
-    ],
-    [
-      "/c/en/simultaneity",
-      0.8724383945589909
-    ],
-    [
-      "/c/ja/時間",
-      0.8721603211692093
-    ],
-    [
-      "/c/zh/鐘",
-      0.8713524926270333
-    ],
-    [
-      "/c/ja/星霜",
-      0.8712990374049673
-    ],
-    [
-      "/c/fr/époque",
-      0.8703368162948342
-    ],
-    [
-      "/c/en/foretime",
-      0.8701249028706778
-    ],
-    [
-      "/c/en/timesaving",
-      0.8680410082115907
-    ],
-    [
-      "/c/ang/tid",
-      0.8673716871172462
-    ],
-    [
-      "/c/nl/stond",
-      0.8666293405178938
-    ],
-    [
-      "/c/en/time_measurement",
-      0.8662716552698726
-    ],
-    [
-      "/c/ru/срок",
-      0.8650697739549856
-    ],
-    [
-      "/c/lo/ໂມງ",
-      0.8640848472418332
-    ],
-    [
-      "/c/ku/saet",
-      0.8636779507058218
-    ],
-    [
-      "/c/en/muhurta",
-      0.8623695251532182
-    ],
-    [
-      "/c/en/time_scale",
-      0.8614361656815289
-    ],
-    [
-      "/c/en/someday",
-      0.8607527418605129
-    ],
-    [
-      "/c/en/work_time",
-      0.860685684775705
-    ],
-    [
-      "/c/ja/倍",
-      0.8601043516356544
-    ],
-    [
-      "/c/ar/ساعة",
-      0.8599298959424393
-    ],
-    [
-      "/c/de/mal",
-      0.856168003237358
-    ],
-    [
-      "/c/de/zeitspanne",
-      0.8554562635280758
-    ],
-    [
-      "/c/en/in_time",
-      0.8541216143196083
-    ],
-    [
-      "/c/en/time_of_departure",
-      0.8536605660685839
-    ],
-    [
-      "/c/de/tempus",
-      0.8535983239289324
-    ],
-    [
-      "/c/en/chronograph",
-      0.8527467453805289
-    ],
-    [
-      "/c/en/pastness",
-      0.8523183603945363
-    ]
+  "edges": [
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/minute /r/RelatedTo -",
+        "/c/en/minute - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c24e236ba7e5eccc54db0fd0ff1532539db3f1c9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/minute",
+      "surfaceEnd": "time",
+      "surfaceStart": "minute",
+      "surfaceText": "[[minute]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/minute/,/c/en/time/]",
+      "weight": 4.548409874477495
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/hour /r/RelatedTo -",
+        "/c/en/hour - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/7f7c6cf3790079caa37ea9eea17c7ae12af38f01",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/hour",
+      "surfaceEnd": "time",
+      "surfaceStart": "hour",
+      "surfaceText": "[[hour]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/hour/,/c/en/time/]",
+      "weight": 4.252677068566603
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/clock /r/RelatedTo -",
+        "/c/en/clock - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/f15bc2665a978caedc4309dc86f9f0f4d37256b5",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/clock",
+      "surfaceEnd": "time",
+      "surfaceStart": "clock",
+      "surfaceText": "[[clock]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/clock/,/c/en/time/]",
+      "weight": 3.4477480520718036
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/watch /r/RelatedTo -",
+        "/c/en/watch - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c3ff2876c239da6b06620c6e7ff951afa420cc62",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/watch",
+      "surfaceEnd": "time",
+      "surfaceStart": "watch",
+      "surfaceText": "[[watch]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/watch/,/c/en/time/]",
+      "weight": 2.9594977234476505
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/morning /r/RelatedTo -",
+        "/c/en/morning - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/60566b3c3d00fc3041006890b1031be9f8f18d9b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/morning",
+      "surfaceEnd": "time",
+      "surfaceStart": "morning",
+      "surfaceText": "[[morning]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/morning/,/c/en/time/]",
+      "weight": 2.93982693195035
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/even /r/RelatedTo -",
+        "/c/en/even - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/116e468d1152f4521c0330e3dcb5f1c18e886c8b",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/even",
+      "surfaceEnd": "time",
+      "surfaceStart": "evening",
+      "surfaceText": "[[evening]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/even/,/c/en/time/]",
+      "weight": 2.831847052057534
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/always /r/RelatedTo -",
+        "/c/en/always - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/b3c424b4c537305bce081ecfbe170b15335cdd49",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/always",
+      "surfaceEnd": "time",
+      "surfaceStart": "always",
+      "surfaceText": "[[always]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/always/,/c/en/time/]",
+      "weight": 2.7371443420248567
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/year /r/RelatedTo -",
+        "/c/en/year - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/3776bd41e55347b9fc635695693249cedec5be26",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/year",
+      "surfaceEnd": "time",
+      "surfaceStart": "year",
+      "surfaceText": "[[year]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/year/,/c/en/time/]",
+      "weight": 2.341579161290503
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/month /r/RelatedTo -",
+        "/c/en/month - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/9a9ac33ed8356fdae8e82108d3817cc26f2b96b3",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/month",
+      "surfaceEnd": "time",
+      "surfaceStart": "month",
+      "surfaceText": "[[month]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/month/,/c/en/time/]",
+      "weight": 2.260460789533698
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/century /r/RelatedTo -",
+        "/c/en/century - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/a5f1d329078cef0f6cb18d68f8ec3e6787750808",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/century",
+      "surfaceEnd": "time",
+      "surfaceStart": "century",
+      "surfaceText": "[[century]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/century/,/c/en/time/]",
+      "weight": 2.24782107912029
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/day /r/RelatedTo -",
+        "/c/en/day - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/80cb3a24962d19c2dfc36fd3d711eff664207354",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/day",
+      "surfaceEnd": "time",
+      "surfaceStart": "day",
+      "surfaceText": "[[day]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/day/,/c/en/time/]",
+      "weight": 2.2374038051465397
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/double /r/RelatedTo -",
+        "/c/en/double - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/fb6fd0b0e023f5ee15c3d74c10deba7cb25b0fc1",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/double",
+      "surfaceEnd": "times",
+      "surfaceStart": "double",
+      "surfaceText": "[[double]] is related to [[times]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/double/,/c/en/time/]",
+      "weight": 2.1536602487768723
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/el",
+      "end": "/c/en/time",
+      "features": [
+        "/c/el/φορά/n /r/RelatedTo -",
+        "/c/el/φορά/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/eb35ccad847b9aef3e162b184a9826b0f2e400e4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/or/[/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/φορά/]/,/and/[/s/rule/link_section/,/s/web/en.wiktionary.org/wiki/φορά/]/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/rule/link_section",
+        "/s/web/en.wiktionary.org/wiki/φορά"
+      ],
+      "start": "/c/el/φορά/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "φορά",
+      "surfaceText": "[[φορά]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/el/φορά/n/,/c/en/time/]",
+      "weight": 2.0
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/week /r/RelatedTo -",
+        "/c/en/week - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/f67e934e7e4c1f34ef2dfcfda0109b306e3ec1c4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/week",
+      "surfaceEnd": "time",
+      "surfaceStart": "week",
+      "surfaceText": "[[week]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/week/,/c/en/time/]",
+      "weight": 1.6796505385781964
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/en",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/mistime/v /r/RelatedTo -",
+        "/c/en/mistime/v - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/afc6299e842f69611a34b7956e8516717b99cf9d",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/mistime/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/mistime"
+      ],
+      "start": "/c/en/mistime/v",
+      "surfaceEnd": "time",
+      "surfaceStart": "mistime",
+      "surfaceText": "[[mistime]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/mistime/v/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/id",
+      "end": "/c/en/time",
+      "features": [
+        "/c/ms/waktu/n /r/RelatedTo -",
+        "/c/ms/waktu/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/02962704e73e003f64934ca66e45e3e3d56f92e4",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/waktu/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/waktu"
+      ],
+      "start": "/c/ms/waktu/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "waktu",
+      "surfaceText": "[[waktu]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/ms/waktu/n/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/verbosity",
+      "end": "/c/en/time",
+      "features": [
+        "/c/en/minute /r/RelatedTo -",
+        "/c/en/minute - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/c24e236ba7e5eccc54db0fd0ff1532539db3f1c9",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/s/site/verbosity",
+      "sources": [
+        "/s/site/verbosity"
+      ],
+      "start": "/c/en/minute",
+      "surfaceEnd": "time",
+      "surfaceStart": "minute",
+      "surfaceText": "[[minute]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/en/minute/,/c/en/time/]",
+      "weight": 4.548409874477495
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/eo",
+      "end": "/c/en/time",
+      "features": [
+        "/c/eo/plurfoje/r /r/RelatedTo -",
+        "/c/eo/plurfoje/r - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/5b230cf57d9bf5d0a638c4dacd14c5d5aa57f03a",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/plurfoje/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/plurfoje"
+      ],
+      "start": "/c/eo/plurfoje/r",
+      "surfaceEnd": "time",
+      "surfaceStart": "plurfoje",
+      "surfaceText": "[[plurfoje]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/eo/plurfoje/r/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/la",
+      "end": "/c/en/time",
+      "features": [
+        "/c/la/vetustus/a /r/RelatedTo -",
+        "/c/la/vetustus/a - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/eacc9c6c3fd6131508c6bbaf2b414a9ecf3339ae",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/vetustus/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/vetustus"
+      ],
+      "start": "/c/la/vetustus/a",
+      "surfaceEnd": "time",
+      "surfaceStart": "vetustus",
+      "surfaceText": "[[vetustus]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/la/vetustus/a/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    },
+    {
+      "context": "/ctx/all",
+      "dataset": "/d/wiktionary/en/yi",
+      "end": "/c/en/time",
+      "features": [
+        "/c/yi/צײַט/n /r/RelatedTo -",
+        "/c/yi/צײַט/n - /c/en/time",
+        "- /r/RelatedTo /c/en/time"
+      ],
+      "id": "/e/9072c3a44bae08ed6f8c19943b90989c3658e859",
+      "license": "/l/CC/By-SA",
+      "rel": "/r/RelatedTo",
+      "source_uri": "/and/[/s/rule/definition_section/,/s/web/en.wiktionary.org/wiki/צײַט/]",
+      "sources": [
+        "/s/rule/definition_section",
+        "/s/web/en.wiktionary.org/wiki/צײַט"
+      ],
+      "start": "/c/yi/צײַט/n",
+      "surfaceEnd": "time",
+      "surfaceStart": "צײַט",
+      "surfaceText": "[[צײַט]] is related to [[time]]",
+      "uri": "/a/[/r/RelatedTo/,/c/yi/צײַט/n/,/c/en/time/]",
+      "weight": 1.5849625007211563
+    }
   ],
-  "terms": [
-    [
-      "/c/en/time",
-      1.0
-    ]
-  ]
+  "numFound": 20
 }
