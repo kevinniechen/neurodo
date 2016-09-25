@@ -17,24 +17,20 @@ default_delusion_categories = [
 
 def delusion_index_file(file_name, concept_dict):
     basics = compute_basics(file_name)
-    smart_ave_dict = index_input(basics, concept_dict)
-    print(file_name)
-    pprint(smart_ave_dict)
+    return index_input(basics, concept_dict)
 
 def delusion_index_string(text, concept_dict):
     basics = compute_basics_text(text, 'all')
-    smart_ave_dict = index_input(basics, concept_dict)
-    pprint(smart_ave_dict)
+    return index_input(basics, concept_dict)
 
 remove_delusions()
 add_delusions(default_delusion_categories)
 concept_dict = get_concepts_from_files()
-print(".....")
+
 for file_name in glob.glob('patient_data/*.txt'):
-    print(file_name)
     sims_pat = semantic_coherence.index_file(file_name)
-    delusion_index_file(file_name, concept_dict)
+    delu_pat = delusion_index_file(file_name, concept_dict)
 
 for file_name in glob.glob('control_data/*.txt'):
     sims_ctl = semantic_coherence.index_file(file_name)
-    delusion_index_file(file_name, concept_dict)
+    delu_ctl = delusion_index_file(file_name, concept_dict)
