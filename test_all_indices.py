@@ -29,12 +29,12 @@ def delusion_index_string(text, concept_dict):
 remove_delusions()
 add_delusions(default_delusion_categories)
 concept_dict = get_concepts_from_files()
-
-for file_name in glob.glob('patient_dir/*.txt'):
+print(".....")
+for file_name in glob.glob('patient_data/*.txt'):
     print(file_name)
     sims_pat = semantic_coherence.index_file(file_name)
     delusion_index_file(file_name, concept_dict)
 
-for file_name in glob.glob('control_dir/*.txt'):
+for file_name in glob.glob('control_data/*.txt'):
     sims_ctl = semantic_coherence.index_file(file_name)
     delusion_index_file(file_name, concept_dict)
