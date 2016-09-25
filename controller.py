@@ -39,7 +39,7 @@ def index():
         title = {"text": chartID}
         xAxis = {"categories": ['Semantic Coherency', 'Determiner Frequency',
             'Normalized Max Phrase Length', 'Delusion Index']}
-        yAxis = {"title": {"text": 'Health'}}
+        yAxis = {"title": {"text": ''}}
 
 
 
