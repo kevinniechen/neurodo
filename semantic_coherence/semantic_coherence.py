@@ -27,4 +27,7 @@ def index_coherence(basics, even_basics, odd_basics):
         #else:
         #    print(ovec_lsi[-1], evec_lsi[-1])
         #    print(len(ovec_lsi), len(evec_lsi))
+
+    if not sims:
+        sims = [0]
     return sims

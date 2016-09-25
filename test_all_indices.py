@@ -39,7 +39,6 @@ def test_dir(dir_name, concept_dict, results_dict):
         max_phrase_len = maxPhraseLength(file_name)
         pprint(delu)
 
-
         results_dict[file_name] = [
                 min(sims),
                 num_det,

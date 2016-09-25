@@ -23,19 +23,23 @@ def index():
             result_phrase_length,
             result_a1, result_a2, result_a3, result_a4, result_a5, result_a6)
 
+
         chartID = 'Analytics'
-        chart = {"renderTo": chartID, "type": "bar", "height": 350}
+        chart = {"renderTo": chartID, "type": "bar", "height": 500}
         series = [
-                {"name": 'Predictive Index', "data": [1,2,3]},
-                {"name": 'Semantic Coherency', "data": [4, 5, 6]},
-                {"name": 'Determiner Frequency', "data": [1,2,3]},
-                {"name": 'Normalized Max Phrase Length', "data": [4, 5, 6]},
-                {"name": 'Delusion Index', "data": [1,2,3]},
+             {"name": 'Aim to raise', "data": [
+                 min(result_coherence),
+                 result_determiners,
+                 result_phrase_length,
+                 ]},
+             {"name": 'Aim to recognize', "data": [
+                 max(result_delusion_dict.values())
+                 ]},
         ]
         title = {"text": chartID}
-        xAxis = {"categories": ['Predictive Index', 'Semantic Coherency', 'Determiner Frequency',
+        xAxis = {"categories": ['Semantic Coherency', 'Determiner Frequency',
             'Normalized Max Phrase Length', 'Delusion Index']}
-        yAxis = {"title": {"text": 'yAxis Label'}}
+        yAxis = {"title": {"text": 'Health'}}
 
 
 

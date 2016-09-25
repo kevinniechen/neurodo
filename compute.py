@@ -44,10 +44,15 @@ def calc_coherence(text):
 
 def calc_determiners(text):
     basics = calc_basics(text)
-    return get_num_determiners(text) / float(len(basics.words))
+    word_count = 0
+    for sentence in basics.words:
+        for w in sentence:
+            word_count += 1
+
+    return get_num_determiners(text) / float(word_count)
 
 def calc_phrase_len(text):
-    return max_phrase_length_text(text)
+    return max_phrase_length_text(text) / 8.0
 
 def calc_ml(coherence, determiners, phrase_len, a1, a2, a3, a4, a5, a6):
     loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
