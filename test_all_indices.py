@@ -49,7 +49,7 @@ def test_dir(dir_name, concept_dict, results_dict):
                 delu[default_delusion_categories[2]],
                 delu[default_delusion_categories[3]],
                 delu[default_delusion_categories[4]],
-                delu[default_delusion_categories[5]],
+                delu[default_delusion_categories[5]]
         ]
         #print(sum(delu.values()))
         #print("sims min: " + str(min(sims)))
