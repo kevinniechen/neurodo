@@ -22,7 +22,27 @@ def index():
         result_ml = calc_ml(result_coherence, result_determiners,
             result_phrase_length,
             result_a1, result_a2, result_a3, result_a4, result_a5, result_a6)
-        return render_template('results.html', form=form, result_ml=result_ml)
+
+        chartID = 'Analytics'
+        chart = {"renderTo": chartID, "type": "bar", "height": 350}
+        series = [
+                {"name": 'Predictive Index', "data": [1,2,3]},
+                {"name": 'Semantic Coherency', "data": [4, 5, 6]},
+                {"name": 'Determiner Frequency', "data": [1,2,3]},
+                {"name": 'Normalized Max Phrase Length', "data": [4, 5, 6]},
+                {"name": 'Delusion Index', "data": [1,2,3]},
+        ]
+        title = {"text": chartID}
+        xAxis = {"categories": ['Predictive Index', 'Semantic Coherency', 'Determiner Frequency',
+            'Normalized Max Phrase Length', 'Delusion Index']}
+        yAxis = {"title": {"text": 'yAxis Label'}}
+
+
+
+        return render_template('results.html',
+                chartID=chartID, chart=chart, series=series,
+                title=title, xAxis=xAxis, yAxis=yAxis,
+                form=form, result_ml=result_ml)
     else:
         return render_template('view.html', form=form)
 

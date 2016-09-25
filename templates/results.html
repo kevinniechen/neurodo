@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Psychosis Text Analyzer</title>
@@ -18,12 +17,25 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="static/js/materialize.js"></script>
   <script src="static/js/init.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
 
   <script type="text/javascript">
       $(window).load(function() {
         $('#onloading').hide();
         $('#oncontent').show();
       });
+  </script>
+  <script type="text/javascript">
+$(document).ready(function() {
+    $(chart_id).highcharts({
+        chart: chart,
+        title: title,
+        xAxis: xAxis,
+        yAxis: yAxis,
+        series: series
+    });
+});
   </script>
 
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -41,12 +53,20 @@
         </ul>
       </div>
     </nav>
-
     <div class="container">
       <div class="col s6">
         <table>
         {{ result_ml }}
         </table>
+		<div id={{ chartID|safe }} class="chart" style="height: 100px; width: 500px"></div>
+		<script>
+			var chart_id = {{ chartID|safe }}
+			var series = {{ series|safe }}
+			var title = {{ title|safe }}
+			var xAxis = {{ xAxis|safe }}
+			var yAxis = {{ yAxis|safe }}
+			var chart = {{ chart|safe }}
+		</script>
       </div>
 
     </div>
