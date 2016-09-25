@@ -27,7 +27,7 @@ def index():
         chart = {"renderTo": chartID, "type": "bar", "height": 500}
         series = [
              {"name": 'Aim to raise', "data": [
-                 min(result_coherence),
+                 10**14*min(result_coherence),
                  result_determiners,
                  result_phrase_length,
                  ]}]
