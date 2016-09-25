@@ -15,14 +15,8 @@ def ie_preprocess(document):
     return sentences
 
 
-"""
-maxPhraseLength is the function that gives the maximum phrase length of the text.
-"""
-def maxPhraseLength(filename):
-    # filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/timecube_raw.txt"
-    f = open(filename, 'r')
-    raw = f.read()
-    sentences = ie_preprocess(raw)
+def max_phrase_length_text(raw_text):
+    sentences = ie_preprocess(raw_text)
     grammar = """
     VP: {<DT>?<JJ>*<PRP>?<NN>?<MD>?<VB|VBD|VBP|VBG|VBZ|VBN>?<IN>?<DT>?<JJ>*<NN>}"""
     # grammar = """
@@ -40,6 +34,15 @@ def maxPhraseLength(filename):
                     maxSent = sentences[i]
                     sentIndex = i
     return maxLen
+
+"""
+maxPhraseLength is the function that gives the maximum phrase length of the text.
+"""
+def maxPhraseLength(filename):
+    with open(filename, 'r') as f:
+        return max_phrase_length_text(f.read())
+    return 0
+
 
 
 if __name__ == "__main__":

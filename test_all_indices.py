@@ -40,9 +40,9 @@ def test_dir(dir_name, concept_dict):
         #pprint(delu)
         #print(sum(delu.values()))
         print("sims min: " + str(min(sims)))
-        print("delu max: " + str(max(delu.values())))
-        print("num_det: " + str(num_det))
-        print("max_phrase_len: " + str(max_phrase_len))
+        #print("delu max: " + str(max(delu.values())))
+        #print("num_det: " + str(num_det))
+        #print("max_phrase_len: " + str(max_phrase_len))
 
 
 def run_all_tests():

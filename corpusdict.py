@@ -22,6 +22,7 @@ class MyCorpus(object):
     def __len__(self):
         return len(self.words)
 
+
 def compute_basics(file_name):
     text = ''
     with open(file_name) as file:
@@ -33,9 +34,11 @@ def compute_basics_text(text, filter_even_odd):
 
     # cut text down to standard size
     text = text[:1000]
+
     # convert file to list of sentences, where sentences are split into words
     text = re.sub(r"""[^\w\s\.;!\?]""", '', text.lower())
-    sentences = [s for s in re.split(r'[\.!\?]\s', text) if s]
+    # also splitting on commas atm!
+    sentences = [s for s in re.split(r'[\.!\?,;:]\s', text) if s]
 
     if filter_even_odd == 'even':
         sentences = sentences[::2]
