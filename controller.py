@@ -10,8 +10,8 @@ def index():
     form = InputForm(request.form)
     if request.method == 'POST' and form.validate():
         result_coherence = calc_coherence(unpack_data(form.text_input))
-        result_delusions = calc_delusions(unpack_data(form.text_input))
-        result_determiners = calc_delusions(unpack_data(form.text_input))
+        result_determiners = calc_determiners(unpack_data(form.text_input))
+        result_phrase_length = calc_phrase_len(unpack_data(form.text_input))
         result_delusion_dict = calc_delusions(unpack_data(form.text_input))
         result_a1 = result_delusion_dict['time']
         result_a2 = result_delusion_dict['self']
@@ -19,8 +19,9 @@ def index():
         result_a4 = result_delusion_dict['unfair']
         result_a5 = result_delusion_dict['mind_control']
         result_a6 = result_delusion_dict['alien']
-        result_ml = calc_ml(result_coherence, result_delusions, result_determiners,
-        result_a1, result_a2, result_a3, result_a4, result_a5, result_a6)
+        result_ml = calc_ml(result_coherence, result_determiners,
+            result_phrase_length,
+            result_a1, result_a2, result_a3, result_a4, result_a5, result_a6)
         return render_template('results.html', form=form, result_ml=result_ml)
     else:
         return render_template('view.html', form=form)
