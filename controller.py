@@ -23,7 +23,6 @@ def index():
             result_phrase_length,
             result_a1, result_a2, result_a3, result_a4, result_a5, result_a6)
 
-
         chartID = 'Analytics'
         chart = {"renderTo": chartID, "type": "bar", "height": 500}
         series = [
@@ -31,14 +30,10 @@ def index():
                  min(result_coherence),
                  result_determiners,
                  result_phrase_length,
-                 ]},
-             {"name": 'Aim to recognize', "data": [
-                 max(result_delusion_dict.values())
-                 ]},
-        ]
+                 ]}]
         title = {"text": chartID}
         xAxis = {"categories": ['Semantic Coherency', 'Determiner Frequency',
-            'Normalized Max Phrase Length', 'Delusion Index']}
+            'Normalized Max Phrase Length']}
         yAxis = {"title": {"text": ''}}
 
 
