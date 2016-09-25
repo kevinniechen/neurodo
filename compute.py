@@ -58,4 +58,4 @@ def calc_ml(coherence, determiners, phrase_len, a1, a2, a3, a4, a5, a6):
     loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
 
     x = [min(coherence), determiners, phrase_len, a1, a2, a3, a4, a5, a6]
-    return loaded_model.predict(x)
+    return loaded_model.predict(x)[0]
