@@ -16,6 +16,7 @@ default_delusion_categories = [
 def index_file(file_name, concept_dict):
     basics = compute_basics(file_name)
     smart_ave_dict = index_input(basics, concept_dict)
+    print(file_name)
     pprint(smart_ave_dict)
 
 def index_string(text, concept_dict):
@@ -32,9 +33,9 @@ concept_dict = get_concepts_from_files()
 
 
 for x in range(0, 6):
-    index_ctl('ctl_pres_' + str(x) + '_raw.txt')
+    index_file('ctl_pres_' + str(x) + '_raw.txt', concept_dict)
 for x in range(0, 2):
-    index_patient('schiz_' + str(x) + '_raw.txt')
+    index_file('schiz_' + str(x) + '_raw.txt', concept_dict)
 
 
 
