@@ -51,6 +51,6 @@ def calc_phrase_len(text):
 
 def calc_ml(coherence, determiners, phrase_len, a1, a2, a3, a4, a5, a6):
     loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
-    x = [coherence, determiners, phrase_len, a1, a2, a3, a4, a5, a6]
 
+    x = [min(coherence), determiners, phrase_len, a1, a2, a3, a4, a5, a6]
     return loaded_model.predict(x)
