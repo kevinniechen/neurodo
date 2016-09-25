@@ -34,7 +34,7 @@ def determinersCount(filename):
 Returns a dictionary of the counts of each of the determiners ("that", "what", "whatever", "which", "whichever") specified
 in the paper.
 """
-def determiners(filenmae):
+def determiners(filename):
     deter = ["that", "what", "whatever", "which", "whichever"]
     f = open(filename, 'r')
     raw = f.read()
