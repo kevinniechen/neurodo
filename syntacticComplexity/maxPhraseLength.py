@@ -14,6 +14,10 @@ def ie_preprocess(document):
     sentences = [nltk.pos_tag(sent) for sent in sentences]
     return sentences
 
+
+"""
+maxPhraseLength is the function that gives the maximum phrase length of the text.
+"""
 def maxPhraseLength(filename):
     # filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/timecube_raw.txt"
     f = open(filename, 'r')

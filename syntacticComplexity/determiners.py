@@ -11,6 +11,9 @@ from collections import Counter
 from nltk import word_tokenize
 import numpy as np
 
+"""
+Returns a dictionary of the counts of the DT and WDT based on the tag of nltk.
+"""
 def determinersCount(filename):
     f = open(filename, 'r')
     raw = f.read()
@@ -27,7 +30,10 @@ def determinersCount(filename):
     deter = ["DT", "WDT"]
     return dict(zip(deter, [counts["DT"], counts["WDT"]]))
 
-
+"""
+Returns a dictionary of the counts of each of the determiners ("that", "what", "whatever", "which", "whichever") specified
+in the paper.
+"""
 def determiners(filenmae):
     deter = ["that", "what", "whatever", "which", "whichever"]
     f = open(filename, 'r')
