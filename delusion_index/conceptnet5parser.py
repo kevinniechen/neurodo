@@ -14,7 +14,7 @@ def parse_file(file_name, file_path, subdir):
     if subdir == 'rel':
         search_string = r'"start": "/c/en/(.+?)["/]'
     else:
-        search_string= r'"/c/en/(.+?)["/]'
+        search_string = r'"/c/en/(.+?)["/]'
     with open(file_path) as file:
         # find the words returned from the query in the json file
         matches = re.findall(search_string, file.read().lower())
@@ -25,7 +25,6 @@ def parse_file(file_name, file_path, subdir):
         # don't imply delusions/obsessions
         if "always" in concepts:
             concepts.remove("always")
-        print(concepts)
     return concepts
 
 def get_concepts_from_subdir(subdir):
@@ -35,8 +34,7 @@ def get_concepts_from_subdir(subdir):
 
 def get_concepts_from_files():
     if not concept_dict:
-        print("got here")
         get_concepts_from_subdir('rel')
         get_concepts_from_subdir('assoc')
-        pprint(concept_dict)
+        #pprint(concept_dict)
     return concept_dict

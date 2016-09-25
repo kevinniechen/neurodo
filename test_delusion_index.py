@@ -28,27 +28,3 @@ def index_string(text, concept_dict):
 remove_delusions()
 add_delusions(default_delusion_categories)
 concept_dict = get_concepts_from_files()
-#index_file('timecube_raw.txt', concept_dict)
-#index_file('control_raw.txt', concept_dict)
-
-
-for x in range(0, 6):
-    index_file('ctl_pres_' + str(x) + '_raw.txt', concept_dict)
-for x in range(0, 2):
-    index_file('schiz_' + str(x) + '_raw.txt', concept_dict)
-
-
-
-index_string("""
-In 1884,  meridian time personnel met
- in Washington to change Earth time.
-First words said was that only 1 day
-could be used on Earth to not change
- the 1 day bible. So they applied the 1
-day  and  ignored  the  other  3 days.
-The bible time was wrong then and it
- proved wrong today. This a major lie
-  has so much evil feed from it's wrong.
-No man on Earth has no belly-button,
-  it proves every believer on Earth a liar.
-""", concept_dict)
