@@ -6,6 +6,7 @@ from delusion_index.conceptnet5parser import get_concepts_from_files
 from delusion_index.delusion_queries import add_delusions, remove_delusions
 from corpusdict import compute_basics, compute_basics_text
 from get_num_determiners import get_num_determiners
+from syntacticComplexity.maxPhraseLength import maxPhraseLength
 
 default_delusion_categories = [
 'time',
@@ -35,11 +36,13 @@ def test_dir(dir_name, concept_dict):
         sims = semantic_coherence.index_file(file_name)
         delu = delusion_index_file(file_name, concept_dict)
         num_det = get_det_file(file_name)
+        max_phrase_len = maxPhraseLength(file_name)
         #pprint(delu)
         #print(sum(delu.values()))
         print("sims min: " + str(min(sims)))
         print("delu max: " + str(max(delu.values())))
         print("num_det: " + str(num_det))
+        print("max_phrase_len: " + str(max_phrase_len))
 
 
 def run_all_tests():

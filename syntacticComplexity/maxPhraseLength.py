@@ -39,11 +39,7 @@ def maxPhraseLength(filename):
                     maxNode = tree
                     maxSent = sentences[i]
                     sentIndex = i
-    print(sentIndex)
-    print(maxNode)
-    print(maxSent)
     return maxLen
-# return result
 
 
 if __name__ == "__main__":
