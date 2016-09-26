@@ -68,3 +68,15 @@ Letting the user add custom delusionary thought themes that they are working on 
 Allowing the user to pull text automatically from supplied accounts on a list of supported websites and apps.
 
 More data and more learning!
+
+#Authors
+
+Steven Griffin, stevengriffin323@gmail.com
+
+Kevin Chen
+
+William Shyr
+
+Daniel Hsu
+
+Lai Jeff
