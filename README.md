@@ -43,6 +43,7 @@ We suggest setting up a a Python [virtualenv](http://virtualenv.readthedocs.io/e
 ```bash
 # Clone repository
 git clone https://github.com/stevengriffin/cohere_proj
+cd cohere_proj
 
 # Install needed system packages
 sudo apt-get install python3 python-pip python3.4-dev gfortran libopenblas-dev liblapack-dev
