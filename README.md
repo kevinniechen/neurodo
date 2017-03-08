@@ -1,6 +1,6 @@
 #Neurodo
 
-A python-based MVP (minimum viable product) web-app that predicts the onset of schizophrenia and the current severity of positive symptoms (such as delusions) and negative symptoms (such as cognitive dysfunction) based on linguistic features in patient text samples. This project was a Top 10 Finalist and won Wolfram's Best Tech award at Johns Hopkins' MedHacks. [Devpost](https://devpost.com/software/cohere-013ltc).
+A python-based web-app that predicts the onset of schizophrenia and the current severity of positive symptoms (such as delusions) and negative symptoms (such as cognitive dysfunction) based on linguistic features in patient text samples. This project was a Top 10 Finalist and won Wolfram's Best Tech award at Johns Hopkins' MedHacks. [Devpost](https://devpost.com/software/cohere-013ltc).
 
 #Installation
 
