@@ -14,14 +14,17 @@ We suggest setting up a a Python [virtualenv](http://virtualenv.readthedocs.io/e
 
 ```bash
 # Clone repository
-git clone https://github.com/stevengriffin/cohere_proj
-cd cohere_proj
+git clone https://github.com/kevchn/neurodo
+cd neurodo/
 
-# Install needed system packages
+# Install needed system packages (use homebrew on OS X)
 sudo apt-get install python3 python-pip python3.4-dev gfortran libopenblas-dev liblapack-dev
 
 # Install needed python packages
-python3 -m pip install scipy numpy gensim wtforms Flask uwsgi nltk
+pip install -r requirements.txt
+
+# Download required NLTK datasets
+python3 nltk_download.py
 
 # Run tests
 python3 test_all_indices.py > log.txt
