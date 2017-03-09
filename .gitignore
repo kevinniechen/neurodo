@@ -1,3 +1,6 @@
+# IntelliJ
+.idea/
+
 *.swp
 *.pyc
 *.ipynb
