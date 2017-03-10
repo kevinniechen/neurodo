@@ -1,79 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Neurodo Results</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Neurodo | Results</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="static/js/materialize.js"></script>
-  <script src="static/js/init.js"></script>
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 
-  <script type="text/javascript">
-      $(window).load(function() {
-        $('#onloading').hide();
-        $('#oncontent').show();
-      });
-  </script>
-  <script type="text/javascript">
-$(document).ready(function() {
-    $(chart_id).highcharts({
-        chart: chart,
-        title: title,
-        xAxis: xAxis,
-        yAxis: yAxis,
-        series: series
-    });
-});
-  </script>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="static/js/materialize.js"></script>
+    <script src="static/js/init.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
 
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#onloading').hide();
+            $('#oncontent').show();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ctx = document.getElementById("myChart");
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["Semantic Discoherence", "Determiner Frequency", "Normalized Phrase Length"],
+                    datasets: [{
+                        label: 'Percentage',
+                        data: [{{filtered_results[0]}},
+                               {{filtered_results[1]}},
+                               {{filtered_results[2]}}
+                        ],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255,99,132,1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+        });
+    </script>
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
 
-  <div id="oncontent" style="display:none">
+<div id="oncontent" style="display:none">
 
-    <nav class="blue-grey darken-4" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container" href="/">Neurodo</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="/help">Help</a></li>
-        </ul>
-      </div>
+    <nav class="black" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="/">Neurodo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/help">Help</a></li>
+            </ul>
+        </div>
     </nav>
+
+
     <div class="container">
-      <div class="col s6">
-        <table>
-        {{ result_ml }}
-        </table>
-		<div id={{ chartID|safe }} class="chart" style="height: 100px; width: 500px"></div>
-		<script>
-			var chart_id = {{ chartID|safe }}
-			var series = {{ series|safe }}
-			var title = {{ title|safe }}
-			var xAxis = {{ xAxis|safe }}
-			var yAxis = {{ yAxis|safe }}
-			var chart = {{ chart|safe }}
-		</script>
-      </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey lighten-4">
+                <div class="card-content black-text">
+                  <span class="card-title">Machine Learning Result</span>
+                  <p>{{result_ml}}</p>
+                    <br>
+                </div>
+                <div class="card-action">
+                  <a href="/help" class="blue-text">Methodology</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card grey lighten-5">
+                <div class="card-content black-text">
+                  <span class="card-title">Maximum Semantic Discoherence</span>
+                  <h4>{{filtered_results[0]}}</h4>
+                </div>
+                <div class="card-action">
+                  <a href="http://www.sciencedirect.com/science/article/pii/S0010945213000439" class="blue-text">Research Paper</a>
+                  <a href="/help" class="blue-text">Our Methodology</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card grey lighten-5">
+                <div class="card-content black-text">
+                  <span class="card-title">Determiner Frequency</span>
+                  <h4>{{filtered_results[1]}}</h4>
+                </div>
+                <div class="card-action">
+                  <a href="http://www.nature.com/articles/npjschz201530" class="blue-text">Research Paper</a>
+                  <a href="/help" class="blue-text">Our Methodology</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6">
+              <div class="card grey lighten-5">
+                <div class="card-content black-text">
+                  <span class="card-title">Normalized Max Phrase Length</span>
+                  <h4>{{filtered_results[2]}}</h4>
+                </div>
+                <div class="card-action">
+                  <a href="http://www.nature.com/articles/npjschz201530" class="blue-text">Research Paper</a>
+                  <a href="/help" class="blue-text">Our Methodology</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m12">
+              <div class="card grey lighten-5">
+                <div class="card-content black-text">
+                  <span class="card-title">Graphical Overview</span>
+                  <canvas id="myChart" width="200" height="200">MyChart</canvas>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <br><br>
 
     </div>
 
-  </div>
+</div>
 
-  <div id="onloading"></div>
+<div id="onloading"></div>
 
 </body>
 

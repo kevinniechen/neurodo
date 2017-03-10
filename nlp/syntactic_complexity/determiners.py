@@ -5,15 +5,17 @@ Created on Fri Sep 23 22:49:44 2016
 @author: williamshyr
 """
 
-import nltk, re, pprint
-
 from collections import Counter
-from nltk import word_tokenize
+
+import nltk
 import numpy as np
+from nltk import word_tokenize
 
 """
 Returns a dictionary of the counts of the DT and WDT based on the tag of nltk.
 """
+
+
 def determinersCount(filename):
     f = open(filename, 'r')
     raw = f.read()
@@ -30,10 +32,13 @@ def determinersCount(filename):
     deter = ["DT", "WDT"]
     return dict(zip(deter, [counts["DT"], counts["WDT"]]))
 
+
 """
 Returns a dictionary of the counts of each of the determiners ("that", "what", "whatever", "which", "whichever") specified
 in the paper.
 """
+
+
 def determiners(filename):
     deter = ["that", "what", "whatever", "which", "whichever"]
     f = open(filename, 'r')
@@ -50,6 +55,7 @@ def determiners(filename):
         numDeter[i] = text.count(deter[i])
     deterDict = dict(zip(deter, numDeter))
     return deterDict
+
 
 if __name__ == "__main__":
     filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/timecube_raw.txt"

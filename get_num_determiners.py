@@ -1,5 +1,6 @@
 import re
 
+
 def get_num_determiners(text):
     deter = ["that", "what", "whatever", "which", "whichever"]
     count = 0

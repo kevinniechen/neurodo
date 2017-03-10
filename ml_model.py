@@ -1,30 +1,31 @@
 # Save basic ML model using pickle
+import pickle
+
 import pandas as pd
 from sklearn import cross_validation
-from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
-import pickle
-from test_all_indices import run_all_tests
+
+from tests.test_all_indices import run_all_tests
 
 names = ['coherence', 'determinants', 'phrase_len', 'time', 'self',
-        'surveillance', 'unfair', 'mind_control', 'alien']
+         'surveillance', 'unfair', 'mind_control', 'alien']
 
 df2 = pd.DataFrame(data=run_all_tests(), index=names)
 df = df2.transpose()
 
-df['type'] = ["Schizophrenia","Schizophrenia","Schizophrenia","Schizophrenia",
- "Schizophrenia","Schizophrenia","Schizophrenia","Schizophrenia",
- "Control","Control","Control","Control","Control","Control","Control",
- "Control","Control","Control","Control","Control","Control","Control",
- "Control","Control","Control","Control",
- "Control","Control","Control","Control"]
+df['type'] = ["Schizophrenia", "Schizophrenia", "Schizophrenia", "Schizophrenia",
+              "Schizophrenia", "Schizophrenia", "Schizophrenia", "Schizophrenia",
+              "Control", "Control", "Control", "Control", "Control", "Control", "Control",
+              "Control", "Control", "Control", "Control", "Control", "Control", "Control",
+              "Control", "Control", "Control", "Control",
+              "Control", "Control", "Control", "Control"]
 
 print(df)
 
 array = df.values
 
-X = array[:,0:9]
-Y = array[:,9]
+X = array[:, 0:9]
+Y = array[:, 9]
 
 test_size = 0.33
 seed = 3

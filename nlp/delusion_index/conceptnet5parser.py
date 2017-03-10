@@ -1,10 +1,11 @@
-import re
 import itertools
+
 import os
+import re
 from collections import defaultdict
-from pprint import pprint  # pretty-printer
 
 concept_dict = defaultdict(list)
+
 
 def parse_file(file_name, file_path, subdir):
     concepts = []
@@ -27,14 +28,16 @@ def parse_file(file_name, file_path, subdir):
             concepts.remove("always")
     return concepts
 
+
 def get_concepts_from_subdir(subdir):
-        dir = os.path.join(os.getcwd(), 'delusion_index', 'delusions', subdir)
-        for file_name in os.listdir(dir):
-            concept_dict[file_name] += parse_file(file_name, os.path.join(dir, file_name), subdir)
+    dir = os.path.join(os.getcwd(), 'nlp', 'delusion_index', 'delusions', subdir)
+    for file_name in os.listdir(dir):
+        concept_dict[file_name] += parse_file(file_name, os.path.join(dir, file_name), subdir)
+
 
 def get_concepts_from_files():
     if not concept_dict:
         get_concepts_from_subdir('rel')
         get_concepts_from_subdir('assoc')
-        #pprint(concept_dict)
+        # pprint(concept_dict)
     return concept_dict

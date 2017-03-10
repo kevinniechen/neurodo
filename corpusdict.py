@@ -1,9 +1,8 @@
 import logging
-from collections import defaultdict
-from pprint import pprint  # pretty-printer
-from gensim import corpora, models, similarities
-from six import iteritems
 import re
+
+from gensim import corpora
+
 
 class GenSimBasics(object):
     def __init__(self):
@@ -11,14 +10,17 @@ class GenSimBasics(object):
         self.corpus = None
         self.words = None
 
+
 class MyCorpus(object):
     def __init__(self, dictionary, words):
         self.dictionary = dictionary
         self.words = words
+
     def __iter__(self):
         for sentence in self.words:
             # assume there's one document per line, tokens separated by whitespace
             yield self.dictionary.doc2bow(sentence)
+
     def __len__(self):
         return len(self.words)
 
@@ -28,6 +30,7 @@ def compute_basics(file_name):
     with open(file_name) as file:
         text = file.read()
     return compute_basics_text(text, "all")
+
 
 def compute_basics_text(text, filter_even_odd):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)

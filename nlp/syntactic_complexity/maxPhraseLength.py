@@ -1,11 +1,4 @@
-
-
-
-import nltk, re, pprint
-import numpy as np
-
-from collections import Counter
-from nltk import word_tokenize
+import nltk
 
 
 def ie_preprocess(document):
@@ -35,18 +28,20 @@ def max_phrase_length_text(raw_text):
                     sentIndex = i
     return maxLen
 
+
 """
 maxPhraseLength is the function that gives the maximum phrase length of the text.
 """
+
+
 def maxPhraseLength(filename):
     with open(filename, 'r') as f:
         return max_phrase_length_text(f.read())
     return 0
 
 
-
 if __name__ == "__main__":
     # filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/timecube_raw.txt"
-    filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/syntacticComplexity/testPhraseLength.txt"
+    filename = "/Users/williamshyr/Documents/MedHacks/cohere_proj/syntactic_complexity/testPhraseLength.txt"
     l = maxPhraseLength(filename)
     print(l)
