@@ -4,7 +4,8 @@ A python-based web-app that predicts the onset of schizophrenia and the current 
 
 This project won Wolfram's Best Tech award and became a Top 10 Finalist at Johns Hopkins University's MedHacks hackathon. [Devpost](https://devpost.com/software/cohere-013ltc).
 
-[Demo](https://neurodo.herokuapp.com). Please wait ~10s while the heroku app spins up.
+#Demo
+[Demo](https://neurodo.herokuapp.com). This is hosted on a free heroku dyno, so it will take ~15s to spin up when you visit.
 
 #Installation
 
