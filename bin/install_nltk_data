@@ -5,9 +5,9 @@ source $BIN_DIR/utils
 
 echo "-----> Starting nltk data installation"
 
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('brown')
+python -m nltk.downloader punkt
+python -m nltk.downloader averaged_perceptron_tagger
+python -m nltk.downloader wordnet
+python -m nltk.downloader brown 
 
 echo "-----> Finished nltk data installation"
